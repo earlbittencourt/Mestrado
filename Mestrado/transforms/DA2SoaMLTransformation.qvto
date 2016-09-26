@@ -1,0 +1,282 @@
+modeltype UML uses "http://www.eclipse.org/uml2/4.0.0/UML";
+                   
+modeltype SoaML uses "http:///SoaML.ecore";
+
+transformation DA2SoaMLTransformation(in uml:UML, out soaml:SoaML);
+
+-- Início das Transformações
+main() {
+	uml.objects()[UML::Model] -> map UMLModeltoSoaMLModel();
+}
+
+mapping Model::UMLModeltoSoaMLModel():Model{
+	name := self.name; //self.Title
+    
+    var activityPartition := self.packagedElement[Activity].group[ActivityPartition];
+    
+    var prop : Property;
+           
+	activityPartition->forEach(g){
+		
+		prop := result.packagedElement[Property]-> selectOne(x|x.name = g.name);
+               
+        var subs = g.subpartition;
+        	        
+	        if(subs->size()=0)then{
+	            g -> map ActivityPartitionToClass(result, prop); -- depois de class para Participante
+	        }endif;
+	        
+	        if(subs->size()> 0)then{
+	            g -> map ActivityPartitionToCollaboration(result,prop); -- depois de Collaboration para ServiceArchtecture
+                 
+            subs->forEach(s){
+                 
+                    var subs2 = s.subpartition;
+                
+                    if(subs2->size()=0)then{
+	                     s -> map ActivityPartitionToClass(result, prop); -- depois de class para Participante
+	                }endif;
+	        
+			        if(subs2->size()> 0)then{
+			             s -> map ActivityPartitionToCollaboration(result,prop); -- depois de Collaboration para ServiceArchtecture
+		            }endif;
+                 
+           }; 	       
+	        }endif;
+      
+      -- g -> map ActivityPartitionToServiceContract(); 
+         
+	};
+     var expansionRegion := self.packagedElement[Activity].group[ExpansionRegion];
+        
+     var serviceA : Collaboration;
+
+     expansionRegion->forEach(h){
+         serviceA := result.packagedElement[Collaboration] -> selectOne(x|x.name = h.name);
+               
+         h -> map ExpansionRegionToCollaboration(result, serviceA);
+     };
+
+   var controlFlow := self.packagedElement[Activity].edge[ControlFlow];
+   
+    controlFlow->forEach(i){
+      var source = i.source;
+      var target = i.target;  
+
+     source->forEach(j){
+       	var tag_opaqueaction1 := j[OpaqueAction];
+             
+        tag_opaqueaction1->forEach(h){
+            --log(h.name);
+           var inpartition1 := h.inPartition;
+           
+           inpartition1->forEach(l){
+                
+                 target->forEach(m){
+                    var tag_opaqueaction2 := m[OpaqueAction];
+                    
+                    tag_opaqueaction2->forEach(n){
+                       --log(n.name);
+                       var inpartition2 := n.inPartition;
+           
+                       inpartition2->forEach(o){
+                       var cl := result.packagedElement[Class];
+                             
+                             if(o.name <> l.name)then{
+                                                              	
+                             	cl->forEach(b){
+                                    --log(" SOURCE "+h.name);
+                                   if(b.name= l.name)then{
+	                             		i -> map controlFlowToPort(n,b);
+                             		}endif;
+                                   if(b.name= o.name)then{
+	                             		i -> map controlFlowToRequest(h,b);
+	                                }endif;                             	   
+                             	
+                             	};
+
+                             	
+                             }endif;
+                       };
+                    };
+                 };
+           };
+   
+       	};
+     };
+   };
+
+var opaqueAction := self.packagedElement[Activity].node[OpaqueAction];
+        
+    var action : Action;
+           
+	opaqueAction->forEach(g){
+		action := result.packagedElement[Action]-> selectOne(x|x.name = g.name);
+        
+        g -> map OpaqueActionToAction(result, action);
+        
+	};
+
+
+var opaques := self.packagedElement[Activity].node[OpaqueAction];
+                     
+map createCollaboration(opaques, result); 
+
+
+}
+
+
+mapping createCollaboration(opaques:Bag(OpaqueAction), inout model:Model):Collaboration{
+var name1 : String;
+var name2 : String;
+var interface1 : Interface;
+var interface2 : Interface;
+
+
+opaques->forEach(c){
+        var inpart1 := c.inPartition;       
+        var outt1 := c.outgoing;
+        var inn1 := c.incoming; 
+        var interfaces := model.packagedElement[Interface];
+         
+         
+         
+        opaques->forEach(d){
+            var inpart2 := d.inPartition;       
+            
+            var inn2 := d.incoming; 
+        if ((inpart1 != inpart2) and (outt1 = inn2))then{
+            inpart1->forEach(x){
+         		name1 := x.name; 
+         	};
+         	inpart2->forEach(y){
+         		name2 := y.name; 
+         	};
+         var inter1 := interfaces->selectOne(x | x.name = name1);
+         var inter2 := interfaces->selectOne(x | x.name = name2);
+            if(inter1 = null)then{
+               c->map OpaqueToInterface(model, name1)->forEach(int){
+                  interface1 := int;
+			   };
+		    }endif;
+	 	    
+	 	    if(inter2 = null)then{
+			   d->map OpaqueToInterface(model, name2)->forEach(a){
+                  interface2 := a;
+			   };
+	        }endif;
+            
+            result.name := name1 + "_" + name2;
+
+                
+			result.createOwnedAttribute(name1   , interface1, 1, 1);
+			result.createOwnedAttribute(name2   , interface2, 1, 1);
+			
+			model.packagedElement += result;
+													
+			var collaborations := model.packagedElement[Collaboration];
+	        --collaborations -> forEach(e){
+			--log(e.name);
+			--};
+	        map createServiceContract(collaborations, name1, name2, result);
+        
+        }endif;
+        	
+        };  
+                           
+};
+                                              
+
+}
+
+mapping createServiceContract(collaborations:Set(Collaboration), name1:String, name2:String, collaboration:Collaboration){
+	
+	collaborations->forEach(c){
+		var participants := c.ownedAttribute;
+		var part : Set(Property);
+		participants->forEach(p){
+			--log(p.name);
+			if(p.name = name1 or p.name = name2)then{
+				--log("Entrou");
+				part += p;
+			}endif;					
+		};
+		
+		if(participants->size() = part->size() and name1 <> name2)then{
+			var colabUse := map createCollaborationUse(name1, name2, collaboration);
+			c.collaborationUse += colabUse;
+			participants->forEach(p){
+				log(p.name);
+				p.createUsage(colabUse);
+			};
+		}endif;
+	};
+}
+
+mapping createCollaborationUse(name1:String, name2:String, collaboration:Collaboration):CollaborationUse{
+	--log("Entrou22");
+	name := name1 + "_" + name2;
+	type := collaboration;
+}
+
+mapping OpaqueAction::OpaqueToInterface(inout model:Model, in nameClient:String):Interface{
+	name := nameClient + "_" + self.name + "_Interface";
+	model.packagedElement += result;
+}
+
+mapping ActivityPartition:: ActivityPartitionToClass(inout model:Model, in prop : Property):Class{
+   name := self.name;
+   model.packagedElement += result;
+   result -> map ActivityPartitionToParticipant(self, model);
+   
+}
+
+mapping ActivityPartition::ActivityPartitionToCollaboration(inout model:Model, in prop :Property):Collaboration{
+		name := self.name;
+		result.ownedAttribute := prop;
+	  	model.packagedElement += result;
+	    result->map ActivityPartitionToServiceArchtecture();
+}
+
+mapping Class::ActivityPartitionToParticipant(in activityPartition:ActivityPartition,inout model:Model ):Participant{
+     NamedElement = self;	
+}
+
+mapping ExpansionRegion::ExpansionRegionToCollaboration(inout model:Model, in collaboration :Collaboration):Collaboration{
+		name := self.name;
+	  	model.packagedElement += result;
+	    result->map ActivityPartitionToServiceArchtecture();
+}
+
+mapping Collaboration::ActivityPartitionToServiceArchtecture():ServicesArchitecture{
+		baseCollaboration := self;
+}
+
+mapping ControlFlow::controlFlowToRequest(inout controlFlow:OpaqueAction , inout cla :Class):Port{
+	name := "ServiceRequest " + controlFlow.name;
+	
+	cla->forEach(c){
+		c.ownedAttribute += result;	
+	};
+	
+	result-> map PortToRequest();
+}
+
+mapping ControlFlow::controlFlowToPort(inout controlFlow:OpaqueAction, inout cla :Class):Port{
+	name := "ServicePort " + controlFlow.name;
+	cla.ownedAttribute += result;
+	result-> map PortToService();
+}
+
+mapping Port::PortToService():Service{
+	basePort := self;
+}
+
+mapping Port::PortToRequest():Request{
+	basePort := self;
+}
+
+mapping OpaqueAction:: OpaqueActionToAction(inout model:Model, inout action:Action):OpaqueAction{
+   name := self.name;  
+   
+}

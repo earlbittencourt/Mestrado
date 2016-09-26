@@ -1,0 +1,207 @@
+modeltype BPMN uses "http://www.omg.org/spec/BPMN/20100524/MODEL-XMI";
+
+modeltype BPMN2 uses "http://www.omg.org/spec/BPMN/20100524/DI-XMI";
+
+modeltype UML uses "http://www.eclipse.org/uml2/4.0.0/UML";
+
+transformation BPMND2_2_DA_Transformation(in bpmn:BPMN2,out uml:UML);
+--in bpmnDI:BPMN2 ,
+main() {
+	bpmn.objects()[Definitions] -> map DefinitionsToModel2();
+}
+
+mapping Definitions::DefinitionsToModel2():Model {
+   -- Transforma Pool em ActivityPartition
+   -- Transforma Pool em ActivityFinalNode
+   -- Transforma Lane em ActivityPartition
+   var collaboration := self.subobjects()[Collaboration];
+   
+   var lanes : Bag(Lane);
+	
+	if(collaboration->size() > 0)then{
+		--Se existe uma colaboração, cada Participant (Pool) será mapeado para um Actor
+		collaboration.participants->forEach(p){
+			p -> map ParticipantToActivityPartition(result);
+		};
+		lanes := collaboration.participants.processRef.laneSets.lanes;
+	}else{
+		--Se não existe uma colaboração, cada Lane será mapeado para um Actor
+		lanes := self.subobjects()[Process].laneSets.lanes; 
+		lanes -> map LaneToActivityPartition(null, result);
+	}endif;
+-------------------------------------------------------------------------------------------------
+   var sequence =  self.subobjects()[Process].flowElements[SequenceFlow];
+    sequence -> forEach(i){
+   	sequence -> map SequenceFlowToControlFlow(result); 
+   };
+-------------------------------------------------------------------------------------------------   
+   -- Transforma BPMNDiagram em Activity
+   var bpmnDiag := self.subobjects()[BPMNDiagram];
+   
+   bpmnDiag->forEach(a){
+       a -> BPMNDiagramToActivity(self,result);
+   };
+}
+
+---------------------------------
+--SequenceFlow para ControlFlow--
+---------------------------------
+mapping SequenceFlow::SequenceFlowToControlFlow(inout model:Model):ControlFlow{
+	
+         if(self.sourceRef.name.toString().size() = 0 or self.sourceRef.name = "")then{
+            name := 'SequenceEdge: '+ 'ID: ' + self.sourceRef.id + '->';
+         }else{
+         	name := 'SequenceEdge: '+ self.sourceRef.name.toString() + '->';
+         }endif;
+         
+         if(self.targetRef.name.toString().size() = 0 or self.targetRef.name = "")then{
+            name := 'SequenceEdge: '+ 'ID: ' + self.targetRef.id.toString();
+         }else{
+           name := 'SequenceEdge: '+  self.targetRef.name.toString();
+         }endif;
+         
+}
+
+---------------------------------------------
+--Participant (Pool) para ActivityPartition--
+---------------------------------------------
+mapping Participant::ParticipantToActivityPartition(inout model:Model):uml::ActivityPartition{
+	name := self.name;
+
+	--Cada Lane pertencente ao Participant, será transformada em ActivityPartition 
+	var lanes := self.processRef.laneSets.lanes; 
+	
+	lanes -> LaneToActivityPartition(result, model);
+	
+	--model.packagedElement += result;
+}
+
+
+---------------------------------------------
+---------Lane para ActivityPartition--------
+---------------------------------------------
+mapping Lane::LaneToActivityPartition(inout activity:ActivityPartition, inout model:Model):ActivityPartition{
+	name := self.name;
+
+	-- Lanes dentro de Pool
+	if(activity <> null)then{
+		activity->forEach(p){
+			superPartition := p;
+		};
+	}endif;
+	
+	--Recursivo caso existam Lanes dentro de Lanes
+	var lanes := self.childLaneSet.lanes;
+	    lanes->forEach(lane){
+	    lane -> map LaneToActivityPartition(result, model);
+	};
+         
+
+    -- Transforma Task em OpaqueAction		
+	var tasks := self.flowNodeRefs[Task];
+	
+	tasks->forEach(t){
+       t -> map TaskToOpaqueAction(model, result);
+	};
+	-- Transforma StartEvent em InitialNode
+	var start := self.flowNodeRefs[StartEvent];	
+	start -> StartToInitialNode(model, result);
+	
+	-- Transforma EndEvent em InitialNode
+	var endEv := self.flowNodeRefs[EndEvent];	
+	endEv -> EndEventeToActivityFinalNode(model, result);
+	endEv -> EndEventeToFlowFinalNode(model, result);
+	
+    --Transforma ExclusiveGateway para DecisionNode
+	var gat := self.flowNodeRefs[ExclusiveGateway];
+	gat -> ExclusiveGatewayToDecisionNode(model, result);
+}
+
+
+------------------------------------------------
+-------ExclusiveGateway para DecisionNode-------
+------------------------------------------------
+mapping ExclusiveGateway::ExclusiveGatewayToDecisionNode(inout model:Model, inout activity:ActivityPartition):DecisionNode{
+	
+	
+	if(self.name.toString().size() > 0)then{
+        name := self.name;
+    }else{
+        name:= 'ID:' + self.id.toString()
+    }endif;
+    
+    inPartition := activity;
+   
+    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
+	incoming := self.incoming.SequenceFlowToControlFlow(model);
+      
+}
+---------------------------------------------
+-------EndEvent para FlowFinalNode-------
+---------------------------------------------
+mapping EndEvent::EndEventeToFlowFinalNode(inout model:Model, inout activity:ActivityPartition):FlowFinalNode{
+	
+    if(self.eventDefinitions->selectByKind(TerminateEventDefinition)->isEmpty())
+	{
+		name := self.name;
+		inPartition := activity;
+	
+	    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
+		incoming += self.incoming.SequenceFlowToControlFlow(model);
+	}endif;
+    
+}
+---------------------------------------------
+-------EndEvent para ActivityFinalNode-------
+---------------------------------------------
+mapping EndEvent::EndEventeToActivityFinalNode(inout model:Model, inout activity:ActivityPartition):ActivityFinalNode{
+	
+	if(self.eventDefinitions->selectByKind(TerminateEventDefinition)->notEmpty())
+	{
+		name := self.name;
+		inPartition := activity;
+		
+	    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
+		incoming += self.incoming.SequenceFlowToControlFlow(model);
+	}endif;
+	
+}
+---------------------------------------------
+---------StartEvent para InitialNode---------
+---------------------------------------------
+mapping StartEvent::StartToInitialNode(inout model:Model, inout activity:ActivityPartition):InitialNode{
+   name := self.name;
+   inPartition := activity;
+   
+   outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
+   incoming := self.incoming.SequenceFlowToControlFlow(model);
+
+}
+--------------------------------------------
+-----------Task para OpaqueAction-----------
+-------------------------------------------- 
+mapping Task::TaskToOpaqueAction(inout model:Model, inout activity:ActivityPartition):uml::OpaqueAction
+{
+	name := self.name;
+	inPartition := activity;
+    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
+	incoming := self.incoming.SequenceFlowToControlFlow(model);
+	 
+
+}
+
+
+
+--------------------------------------------
+---------BPMNDiagram para Activity----------
+--------------------------------------------
+
+mapping BPMNDiagram::BPMNDiagramToActivity(inout def:Definitions, inout model:Model):uml::Activity{
+    name := self.name;
+    edge := ActivityEdge.allInstances();
+    ownedGroup := ActivityPartition.allInstances().superPartition;
+    ownedNode := ActivityNode.allInstances();
+   
+    model.packagedElement += result;
+
+}
