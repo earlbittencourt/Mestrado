@@ -109,8 +109,24 @@ mapping Lane::LaneToActivityPartition(inout activity:ActivityPartition, inout mo
 	
 	-- Transforma EndEvent em InitialNode
 	var endEv := self.flowNodeRefs[EndEvent];	
-	endEv -> EndEventeToActivityFinalNode(model, result);
-	endEv -> EndEventeToFlowFinalNode(model, result);
+	
+	endEv->forEach(e)
+	{
+		if(e.eventDefinitions->selectByKind(TerminateEventDefinition)->isEmpty())
+		{
+			e -> map EndEventeToFlowFinalNode(model, result);
+		}
+		else
+		{
+			e -> map EndEventeToActivityFinalNode(model, result);	
+		}
+		endif;
+			
+	};
+	
+	
+	//EndEventeToActivityFinalNode(model, result);
+	//endEv -> EndEventeToFlowFinalNode(model, result);
 	
     --Transforma ExclusiveGateway para DecisionNode
 	var gat := self.flowNodeRefs[ExclusiveGateway];
@@ -139,32 +155,24 @@ mapping ExclusiveGateway::ExclusiveGatewayToDecisionNode(inout model:Model, inou
 ---------------------------------------------
 -------EndEvent para FlowFinalNode-------
 ---------------------------------------------
-mapping EndEvent::EndEventeToFlowFinalNode(inout model:Model, inout activity:ActivityPartition):FlowFinalNode{
-	
-    if(self.eventDefinitions->selectByKind(TerminateEventDefinition)->isEmpty())
-	{
-		name := self.name;
+mapping EndEvent::EndEventeToFlowFinalNode(inout model:Model, inout activity:ActivityPartition):FlowFinalNode
+{
+    	name := self.name;
 		inPartition := activity;
 	
 	    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
 		incoming += self.incoming.SequenceFlowToControlFlow(model);
-	}endif;
-    
 }
 ---------------------------------------------
 -------EndEvent para ActivityFinalNode-------
 ---------------------------------------------
-mapping EndEvent::EndEventeToActivityFinalNode(inout model:Model, inout activity:ActivityPartition):ActivityFinalNode{
+mapping EndEvent::EndEventeToActivityFinalNode(inout model:Model, inout activity:ActivityPartition):ActivityFinalNode
+{
+	name := self.name;
+	inPartition := activity;
 	
-	if(self.eventDefinitions->selectByKind(TerminateEventDefinition)->notEmpty())
-	{
-		name := self.name;
-		inPartition := activity;
-		
-	    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
-		incoming += self.incoming.SequenceFlowToControlFlow(model);
-	}endif;
-	
+    outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
+	incoming += self.incoming.SequenceFlowToControlFlow(model);
 }
 ---------------------------------------------
 ---------StartEvent para InitialNode---------
@@ -186,8 +194,6 @@ mapping Task::TaskToOpaqueAction(inout model:Model, inout activity:ActivityParti
 	inPartition := activity;
     outgoing += self.outgoing.SequenceFlowToControlFlow(model); 
 	incoming := self.incoming.SequenceFlowToControlFlow(model);
-	 
-
 }
 
 
