@@ -5,108 +5,108 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="encoding" ordered="false"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Class"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseDataType" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//DataType"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseSignal" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Signal"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ServiceInterface">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseInterface" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Interface"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Class"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Participant">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Class"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Agent" eSuperTypes="#//Participant"/>
   <eClassifiers xsi:type="ecore:EClass" name="Service">
     <eStructuralFeatures xsi:type="ecore:EReference" name="basePort" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Port"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Request">
     <eStructuralFeatures xsi:type="ecore:EReference" name="basePort" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Port"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Attachment">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="encoding" ordered="false"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseProperty" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Property"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="mimetype" ordered="false"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="MotivationRealization">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseRealization" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Realization"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Realization"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Milestone">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="progress" ordered="false"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
-        upperBound="-1" eType="ecore:EClass UML.ecore#//ValueSpecification"/>
+        upperBound="-1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseComment" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Comment"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="signal" ordered="false"
-        eType="ecore:EClass UML.ecore#//Signal"/>
+        eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ServiceContract" eSuperTypes="#//Collaboration">
     <eStructuralFeatures xsi:type="ecore:EReference" name="collaborationUse" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//CollaborationUse"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ServicesArchitecture" eSuperTypes="#//Collaboration">
+  <eClassifiers xsi:type="ecore:EClass" name="ServicesArchitecture" eSuperTypes="http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseCollaboration" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Collaboration"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Capability">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Class"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Category" eSuperTypes="#//NodeDescriptor"/>
   <eClassifiers xsi:type="ecore:EClass" name="NodeDescriptor">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseArtifact" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Artifact"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Catalog" eSuperTypes="#//NodeDescriptor">
     <eStructuralFeatures xsi:type="ecore:EReference" name="basePackage" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Package"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Categorization">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseDependency" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Dependency"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CategoryValue" eSuperTypes="#//FreeFormValue"/>
   <eClassifiers xsi:type="ecore:EClass" name="FreeFormValue">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseValueSpecification"
-        ordered="false" lowerBound="1" eType="ecore:EClass UML.ecore#//ValueSpecification"/>
+        ordered="false" lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ServiceChannel">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseConnector" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Connector"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Expose">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseDependency" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Dependency"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FreeFormDescriptor">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseProperty" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Property"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="MotivationElement" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="Consumer">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Class"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseInterface" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Interface"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Provider">
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Class"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseInterface" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Interface"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="Integer" instanceClassName="int">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -3598,7 +3598,7 @@
       <eAnnotations source="subsets" references="#//Element/owner"/>
     </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseProperty" ordered="false"
-        lowerBound="1" eType="ecore:EClass UML.ecore#//Property"/>
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isId" ordered="false" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="false"/>
   </eClassifiers>

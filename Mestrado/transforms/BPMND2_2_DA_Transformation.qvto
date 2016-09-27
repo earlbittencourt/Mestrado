@@ -49,15 +49,15 @@ mapping Definitions::DefinitionsToModel2():Model {
 mapping SequenceFlow::SequenceFlowToControlFlow(inout model:Model):ControlFlow{
 	
          if(self.sourceRef.name.toString().size() = 0 or self.sourceRef.name = "")then{
-            name := 'SequenceEdge: '+ 'ID: ' + self.sourceRef.id + '->';
+            name := 'ID: ' + self.sourceRef.id + '->';
          }else{
-         	name := 'SequenceEdge: '+ self.sourceRef.name.toString() + '->';
+         	name := self.sourceRef.name.toString() + '->';
          }endif;
          
          if(self.targetRef.name.toString().size() = 0 or self.targetRef.name = "")then{
-            name := 'SequenceEdge: '+ 'ID: ' + self.targetRef.id.toString();
+            name := 'ID: ' + self.targetRef.id.toString();
          }else{
-           name := 'SequenceEdge: '+  self.targetRef.name.toString();
+           name := self.targetRef.name.toString();
          }endif;
          
 }

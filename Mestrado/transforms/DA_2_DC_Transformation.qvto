@@ -1,0 +1,172 @@
+modeltype UML uses "http://www.eclipse.org/uml2/5.0.0/UML";
+
+transformation DA_2_DC_Transformation(in da:UML, out dc:UML);
+
+main() 
+{
+	da.objects()[UML::Model] -> map UMLModeltoDCModel();
+}
+
+mapping Model::UMLModeltoDCModel():Model
+{
+	name := self.name; 
+	
+    var activities := self.packagedElement[Activity];
+    activities -> map ActivityToPackage(result);
+    
+    
+}
+
+mapping Activity::ActivityToPackage(inout model:Model):Package
+{
+	name := self.name;
+	
+	var partitions := self.group[ActivityPartition];
+	
+	partitions->forEach(p)
+	{
+		p -> map ActivityPartitionToClass(null, result, model);
+	};
+	
+	model.packagedElement += result;
+	
+	--#####################################
+	
+	var controls := self.edge[ControlFlow];
+	
+	controls->forEach(clt)
+	{
+		var classes := result.packagedElement[Class];
+		
+	    var p := clt.source.inPartition;
+	    
+	    p->forEach(p1)
+	    {
+	    	classes->forEach(clz)
+			{
+				if(p1.name.replaceAll(' ', '') = clz.name)
+				{
+					clt -> map ControlFlowToInterface(clz, '_Service');
+				}endif;		
+			};
+		};
+		
+		var target := clt.target.inPartition;
+		
+		target->forEach(t1)
+	    {
+	    	classes->forEach(clz)
+			{
+				if(t1.name.replaceAll(' ', '') = clz.name)
+				{
+					clt -> map ControlFlowToInterface(clz, '_Request');
+				}endif;		
+			};
+		};
+		
+	};
+}
+
+mapping ActivityPartition::ActivityPartitionToClass(inout base:Class, inout pack:Package, inout model:Model):Class
+{
+	name := self.name.replaceAll(' ', '');
+	package := pack;
+	
+	if(base <> null)
+	{
+			general := base;
+	}endif;
+	
+	if(self.subpartition->size() > 0)
+	{
+		isAbstract := true;
+		var subpartions := self.subpartition;
+		subpartions -> map ActivityPartitionToClass(result, package, model);
+	}endif;
+	
+	var actions := self.node[OpaqueAction];
+	actions -> map OpaqueActionToOperation(result);
+	
+	//interfaceRealization += map 
+	
+}	
+
+mapping OpaqueAction::OpaqueActionToOperation(inout clazz:Class):Operation
+{
+	var n := self.name.replaceAll(' ', '');
+	   
+	n:= n.replaceAll('á', 'a');
+	n:= n.replaceAll('à', 'a');
+	n:= n.replaceAll('ã', 'a');
+	n:= n.replaceAll('â', 'a');
+	
+	n:= n.replaceAll('é', 'e');
+	n:= n.replaceAll('è', 'e');
+	n:= n.replaceAll('ê', 'e');
+	
+	n:= n.replaceAll('í', 'i');
+	n:= n.replaceAll('ì', 'i');
+	n:= n.replaceAll('î', 'i');
+	
+	n:= n.replaceAll('ó', 'o');
+	n:= n.replaceAll('ò', 'o');
+	n:= n.replaceAll('õ', 'o');
+	n:= n.replaceAll('ô', 'o');
+	
+	n:= n.replaceAll('ú', 'u');
+	n:= n.replaceAll('ù', 'u');
+	n:= n.replaceAll('û', 'u');
+	
+	n:= n.replaceAll('ç', 'c');
+	n:= n.replaceAll('ñ', 'n');
+	n:= n.replaceAll('-', '');
+	
+	name := n;
+	visibility := VisibilityKind::private;
+	clazz.ownedOperation += result;
+}
+
+mapping ControlFlow::ControlFlowToInterface(inout clazz:Class, inout tipo:String):Interface
+{
+
+	var n := self.name.replaceAll(' ', '');
+	   
+	n:= n.replaceAll('á', 'a');
+	n:= n.replaceAll('à', 'a');
+	n:= n.replaceAll('ã', 'a');
+	n:= n.replaceAll('â', 'a');
+	
+	n:= n.replaceAll('é', 'e');
+	n:= n.replaceAll('è', 'e');
+	n:= n.replaceAll('ê', 'e');
+	
+	n:= n.replaceAll('í', 'i');
+	n:= n.replaceAll('ì', 'i');
+	n:= n.replaceAll('î', 'i');
+	
+	n:= n.replaceAll('ó', 'o');
+	n:= n.replaceAll('ò', 'o');
+	n:= n.replaceAll('õ', 'o');
+	n:= n.replaceAll('ô', 'o');
+	
+	n:= n.replaceAll('ú', 'u');
+	n:= n.replaceAll('ù', 'u');
+	n:= n.replaceAll('û', 'u');
+	
+	n:= n.replaceAll('ç', 'c');
+	n:= n.replaceAll('ñ', 'n');
+	n:= n.replaceAll('-', '');
+	
+	name := n + tipo;
+	package := clazz.package;
+	
+	map CreateInterfaceRealization(clazz, result);	
+}
+
+mapping CreateInterfaceRealization(inout clazz:Class, inout i:Interface):InterfaceRealization
+{
+	client := clazz;
+	supplier := i;
+	contract := i;
+	clazz.interfaceRealization += result;
+}

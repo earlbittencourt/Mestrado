@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_V3uDYIQZEea6qMl1pKPjiQ" name="RootElement">
-  <packagedElement xmi:type="uml:Activity" xmi:id="_V3uDYYQZEea6qMl1pKPjiQ" name="Default Collaboration Diagram" node="_V3uDb4QZEea6qMl1pKPjiQ _V3uDcIQZEea6qMl1pKPjiQ _V3uDcYQZEea6qMl1pKPjiQ _V3uDcoQZEea6qMl1pKPjiQ _V3uDc4QZEea6qMl1pKPjiQ _V3uDdIQZEea6qMl1pKPjiQ _V3uDdYQZEea6qMl1pKPjiQ _V3uDdoQZEea6qMl1pKPjiQ _V3uDd4QZEea6qMl1pKPjiQ _V3uDeIQZEea6qMl1pKPjiQ _V3uDeYQZEea6qMl1pKPjiQ" group="_V3uDYoQZEea6qMl1pKPjiQ">
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDZYQZEea6qMl1pKPjiQ" name="SequenceEdge: Realizar Pagamento" target="_V3uDb4QZEea6qMl1pKPjiQ" source="_V3uDdoQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDZoQZEea6qMl1pKPjiQ" name="SequenceEdge: Entregar Refrigerante" target="_V3uDcoQZEea6qMl1pKPjiQ" source="_V3uDb4QZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDZ4QZEea6qMl1pKPjiQ" name="SequenceEdge: Verificar Disponibilidade" target="_V3uDcIQZEea6qMl1pKPjiQ" source="_V3uDc4QZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDaIQZEea6qMl1pKPjiQ" name="SequenceEdge: Possui Dinheiro Suficiente?" target="_V3uDdoQZEea6qMl1pKPjiQ" source="_V3uDdIQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDaYQZEea6qMl1pKPjiQ" name="SequenceEdge: Verificar Dinheiro Disponível" target="_V3uDdIQZEea6qMl1pKPjiQ" source="_V3uDeIQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDaoQZEea6qMl1pKPjiQ" name="SequenceEdge: Fim" target="_V3uDdYQZEea6qMl1pKPjiQ" source="_V3uDcoQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDa4QZEea6qMl1pKPjiQ" name="SequenceEdge: Solicitar Refrigerante" target="_V3uDc4QZEea6qMl1pKPjiQ" source="_V3uDeYQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDbIQZEea6qMl1pKPjiQ" name="SequenceEdge: Pagamento não realizado" target="_V3uDd4QZEea6qMl1pKPjiQ" source="_V3uDdoQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDbYQZEea6qMl1pKPjiQ" name="SequenceEdge: Refrigerante Disponível?" target="_V3uDeIQZEea6qMl1pKPjiQ" source="_V3uDcIQZEea6qMl1pKPjiQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_V3uDboQZEea6qMl1pKPjiQ" name="SequenceEdge: Refrigerante Indisponivel" target="_V3uDcYQZEea6qMl1pKPjiQ" source="_V3uDeIQZEea6qMl1pKPjiQ"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_V3uDYoQZEea6qMl1pKPjiQ" name="Compra de Refrigerante">
-      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_V3uDY4QZEea6qMl1pKPjiQ" name="Cliente" node="_V3uDc4QZEea6qMl1pKPjiQ _V3uDdIQZEea6qMl1pKPjiQ _V3uDb4QZEea6qMl1pKPjiQ _V3uDeYQZEea6qMl1pKPjiQ _V3uDd4QZEea6qMl1pKPjiQ _V3uDdoQZEea6qMl1pKPjiQ"/>
-      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_V3uDZIQZEea6qMl1pKPjiQ" name="Balconista" node="_V3uDcoQZEea6qMl1pKPjiQ _V3uDcIQZEea6qMl1pKPjiQ _V3uDdYQZEea6qMl1pKPjiQ _V3uDcYQZEea6qMl1pKPjiQ _V3uDeIQZEea6qMl1pKPjiQ"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eQ76YITEEeaM7fyPQJmjLw">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_eQ76YYTEEeaM7fyPQJmjLw" name="Default Collaboration Diagram" node="_eQ76b4TEEeaM7fyPQJmjLw _eQ76cITEEeaM7fyPQJmjLw _eQ76cYTEEeaM7fyPQJmjLw _eQ76coTEEeaM7fyPQJmjLw _eQ76c4TEEeaM7fyPQJmjLw _eQ76dITEEeaM7fyPQJmjLw _eQ76dYTEEeaM7fyPQJmjLw _eQ76doTEEeaM7fyPQJmjLw _eQ76d4TEEeaM7fyPQJmjLw _eQ76eITEEeaM7fyPQJmjLw _eQ76eYTEEeaM7fyPQJmjLw" group="_eQ76YoTEEeaM7fyPQJmjLw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76ZYTEEeaM7fyPQJmjLw" name="Verificar Dinheiro Disponível" target="_eQ76cITEEeaM7fyPQJmjLw" source="_eQ76dYTEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76ZoTEEeaM7fyPQJmjLw" name="Possui Dinheiro Suficiente?" target="_eQ76coTEEeaM7fyPQJmjLw" source="_eQ76cITEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76Z4TEEeaM7fyPQJmjLw" name="Fim" target="_eQ76c4TEEeaM7fyPQJmjLw" source="_eQ76eYTEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76aITEEeaM7fyPQJmjLw" name="Solicitar Refrigerante" target="_eQ76cYTEEeaM7fyPQJmjLw" source="_eQ76dITEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76aYTEEeaM7fyPQJmjLw" name="Pagamento não realizado" target="_eQ76eITEEeaM7fyPQJmjLw" source="_eQ76coTEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76aoTEEeaM7fyPQJmjLw" name="Refrigerante Disponível?" target="_eQ76dYTEEeaM7fyPQJmjLw" source="_eQ76b4TEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76a4TEEeaM7fyPQJmjLw" name="Refrigerante Indisponivel" target="_eQ76d4TEEeaM7fyPQJmjLw" source="_eQ76dYTEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76bITEEeaM7fyPQJmjLw" name="Entregar Refrigerante" target="_eQ76eYTEEeaM7fyPQJmjLw" source="_eQ76doTEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76bYTEEeaM7fyPQJmjLw" name="Verificar Disponibilidade" target="_eQ76b4TEEeaM7fyPQJmjLw" source="_eQ76cYTEEeaM7fyPQJmjLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQ76boTEEeaM7fyPQJmjLw" name="Realizar Pagamento" target="_eQ76doTEEeaM7fyPQJmjLw" source="_eQ76coTEEeaM7fyPQJmjLw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_eQ76YoTEEeaM7fyPQJmjLw" name="Compra de Refrigerante">
+      <subpartition xmi:id="_eQ76Y4TEEeaM7fyPQJmjLw" name="Cliente" node="_eQ76cITEEeaM7fyPQJmjLw _eQ76cYTEEeaM7fyPQJmjLw _eQ76doTEEeaM7fyPQJmjLw _eQ76dITEEeaM7fyPQJmjLw _eQ76eITEEeaM7fyPQJmjLw _eQ76coTEEeaM7fyPQJmjLw"/>
+      <subpartition xmi:id="_eQ76ZITEEeaM7fyPQJmjLw" name="Balconista" node="_eQ76eYTEEeaM7fyPQJmjLw _eQ76b4TEEeaM7fyPQJmjLw _eQ76c4TEEeaM7fyPQJmjLw _eQ76d4TEEeaM7fyPQJmjLw _eQ76dYTEEeaM7fyPQJmjLw"/>
     </group>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_V3uDb4QZEea6qMl1pKPjiQ" name="Realizar Pagamento" incoming="_V3uDZYQZEea6qMl1pKPjiQ" outgoing="_V3uDZoQZEea6qMl1pKPjiQ" inPartition="_V3uDY4QZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_V3uDcIQZEea6qMl1pKPjiQ" name="Verificar Disponibilidade" incoming="_V3uDZ4QZEea6qMl1pKPjiQ" outgoing="_V3uDbYQZEea6qMl1pKPjiQ" inPartition="_V3uDZIQZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:FlowFinalNode" xmi:id="_V3uDcYQZEea6qMl1pKPjiQ" name="Refrigerante Indisponivel" incoming="_V3uDboQZEea6qMl1pKPjiQ" inPartition="_V3uDZIQZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_V3uDcoQZEea6qMl1pKPjiQ" name="Entregar Refrigerante" incoming="_V3uDZoQZEea6qMl1pKPjiQ" outgoing="_V3uDaoQZEea6qMl1pKPjiQ" inPartition="_V3uDZIQZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_V3uDc4QZEea6qMl1pKPjiQ" name="Solicitar Refrigerante" incoming="_V3uDa4QZEea6qMl1pKPjiQ" outgoing="_V3uDZ4QZEea6qMl1pKPjiQ" inPartition="_V3uDY4QZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_V3uDdIQZEea6qMl1pKPjiQ" name="Verificar Dinheiro Disponível" incoming="_V3uDaYQZEea6qMl1pKPjiQ" outgoing="_V3uDaIQZEea6qMl1pKPjiQ" inPartition="_V3uDY4QZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_V3uDdYQZEea6qMl1pKPjiQ" name="Fim" incoming="_V3uDaoQZEea6qMl1pKPjiQ" inPartition="_V3uDZIQZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_V3uDdoQZEea6qMl1pKPjiQ" name="Possui Dinheiro Suficiente?" incoming="_V3uDaIQZEea6qMl1pKPjiQ" outgoing="_V3uDZYQZEea6qMl1pKPjiQ _V3uDbIQZEea6qMl1pKPjiQ" inPartition="_V3uDY4QZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:FlowFinalNode" xmi:id="_V3uDd4QZEea6qMl1pKPjiQ" name="Pagamento não realizado" incoming="_V3uDbIQZEea6qMl1pKPjiQ" inPartition="_V3uDY4QZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_V3uDeIQZEea6qMl1pKPjiQ" name="Refrigerante Disponível?" incoming="_V3uDbYQZEea6qMl1pKPjiQ" outgoing="_V3uDaYQZEea6qMl1pKPjiQ _V3uDboQZEea6qMl1pKPjiQ" inPartition="_V3uDZIQZEea6qMl1pKPjiQ"/>
-    <node xmi:type="uml:InitialNode" xmi:id="_V3uDeYQZEea6qMl1pKPjiQ" name="" outgoing="_V3uDa4QZEea6qMl1pKPjiQ" inPartition="_V3uDY4QZEea6qMl1pKPjiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eQ76b4TEEeaM7fyPQJmjLw" name="Verificar Disponibilidade" incoming="_eQ76bYTEEeaM7fyPQJmjLw" outgoing="_eQ76aoTEEeaM7fyPQJmjLw" inPartition="_eQ76ZITEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eQ76cITEEeaM7fyPQJmjLw" name="Verificar Dinheiro Disponível" incoming="_eQ76ZYTEEeaM7fyPQJmjLw" outgoing="_eQ76ZoTEEeaM7fyPQJmjLw" inPartition="_eQ76Y4TEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eQ76cYTEEeaM7fyPQJmjLw" name="Solicitar Refrigerante" incoming="_eQ76aITEEeaM7fyPQJmjLw" outgoing="_eQ76bYTEEeaM7fyPQJmjLw" inPartition="_eQ76Y4TEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_eQ76coTEEeaM7fyPQJmjLw" name="Possui Dinheiro Suficiente?" incoming="_eQ76ZoTEEeaM7fyPQJmjLw" outgoing="_eQ76boTEEeaM7fyPQJmjLw _eQ76aYTEEeaM7fyPQJmjLw" inPartition="_eQ76Y4TEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_eQ76c4TEEeaM7fyPQJmjLw" name="Fim" incoming="_eQ76Z4TEEeaM7fyPQJmjLw" inPartition="_eQ76ZITEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_eQ76dITEEeaM7fyPQJmjLw" name="" outgoing="_eQ76aITEEeaM7fyPQJmjLw" inPartition="_eQ76Y4TEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_eQ76dYTEEeaM7fyPQJmjLw" name="Refrigerante Disponível?" incoming="_eQ76aoTEEeaM7fyPQJmjLw" outgoing="_eQ76ZYTEEeaM7fyPQJmjLw _eQ76a4TEEeaM7fyPQJmjLw" inPartition="_eQ76ZITEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eQ76doTEEeaM7fyPQJmjLw" name="Realizar Pagamento" incoming="_eQ76boTEEeaM7fyPQJmjLw" outgoing="_eQ76bITEEeaM7fyPQJmjLw" inPartition="_eQ76Y4TEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_eQ76d4TEEeaM7fyPQJmjLw" name="Refrigerante Indisponivel" incoming="_eQ76a4TEEeaM7fyPQJmjLw" inPartition="_eQ76ZITEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_eQ76eITEEeaM7fyPQJmjLw" name="Pagamento não realizado" incoming="_eQ76aYTEEeaM7fyPQJmjLw" inPartition="_eQ76Y4TEEeaM7fyPQJmjLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eQ76eYTEEeaM7fyPQJmjLw" name="Entregar Refrigerante" incoming="_eQ76bITEEeaM7fyPQJmjLw" outgoing="_eQ76Z4TEEeaM7fyPQJmjLw" inPartition="_eQ76ZITEEeaM7fyPQJmjLw"/>
   </packagedElement>
 </uml:Model>
