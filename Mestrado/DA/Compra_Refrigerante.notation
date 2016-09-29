@@ -1,522 +1,1165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cHfYUIQZEea6qMl1pKPjiQ" type="PapyrusUMLActivityDiagram" name="Compra_Refrigerante" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="_cHfYUYQZEea6qMl1pKPjiQ" type="Activity_Shape">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c_-fgYQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c_-fgoQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_cHfYUoQZEea6qMl1pKPjiQ" type="Activity_NameLabel"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_cHfYU4QZEea6qMl1pKPjiQ" type="Activity_KeywordLabel"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYVIQZEea6qMl1pKPjiQ" type="Activity_ParameterCompartment">
-      <styles xmi:type="notation:SortingStyle" xmi:id="_cHfYVYQZEea6qMl1pKPjiQ"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_cHfYVoQZEea6qMl1pKPjiQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYV4QZEea6qMl1pKPjiQ"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYWIQZEea6qMl1pKPjiQ" type="Activity_PreconditionCompartment">
-      <styles xmi:type="notation:SortingStyle" xmi:id="_cHfYWYQZEea6qMl1pKPjiQ"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_cHfYWoQZEea6qMl1pKPjiQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYW4QZEea6qMl1pKPjiQ"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYXIQZEea6qMl1pKPjiQ" type="Activity_PostconditionCompartment">
-      <styles xmi:type="notation:SortingStyle" xmi:id="_cHfYXYQZEea6qMl1pKPjiQ"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_cHfYXoQZEea6qMl1pKPjiQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYX4QZEea6qMl1pKPjiQ"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYYIQZEea6qMl1pKPjiQ" type="Activity_ActivityNodeCompartment">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdkIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdkYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_cHfYUIQZEea6qMl1pKPjiQ" type="PapyrusUMLActivityDiagram" name="Compra_Refrigerante" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_cHfYUYQZEea6qMl1pKPjiQ" type="Activity_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c_-fgYQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c_-fgoQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
       </eAnnotations>
-      <children xmi:type="notation:Shape" xmi:id="_dAA7wIQZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdkoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdk4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KEkYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dAA7w4QZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dAA7xIQZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA7xYQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dAA7wYQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KEkIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDb4QZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAA7xoQZEea6qMl1pKPjiQ" x="70" y="666"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cHfYUoQZEea6qMl1pKPjiQ" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cHfYU4QZEea6qMl1pKPjiQ" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYVIQZEea6qMl1pKPjiQ" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_cHfYVYQZEea6qMl1pKPjiQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_cHfYVoQZEea6qMl1pKPjiQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYV4QZEea6qMl1pKPjiQ"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_dAA7x4QZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdlIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdlYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KEk4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dAA7yoQZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dAA7y4QZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA7zIQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dAA7yIQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KEkoQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDcIQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAA7zYQZEea6qMl1pKPjiQ" x="48" y="286"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYWIQZEea6qMl1pKPjiQ" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_cHfYWYQZEea6qMl1pKPjiQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_cHfYWoQZEea6qMl1pKPjiQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYW4QZEea6qMl1pKPjiQ"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_dAA7zoQZEea6qMl1pKPjiQ" type="FlowFinalNode_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdloQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdl4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KroYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dAA70YQZEea6qMl1pKPjiQ" type="FlowFinalNode_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA70oQZEea6qMl1pKPjiQ" x="-24" y="46"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dAA704QZEea6qMl1pKPjiQ" type="FlowFinalNode_StereotypeLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA71IQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dAA7z4QZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KroIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:FlowFinalNode" href="Compra_Refrigerante.uml#_V3uDcYQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAA70IQZEea6qMl1pKPjiQ" x="30" y="476"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYXIQZEea6qMl1pKPjiQ" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_cHfYXYQZEea6qMl1pKPjiQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_cHfYXoQZEea6qMl1pKPjiQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYX4QZEea6qMl1pKPjiQ"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_dABi0IQZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdmIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdmYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_Kro4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cHfYYIQZEea6qMl1pKPjiQ" type="Activity_ActivityNodeCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdkIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdkYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
         </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi04QZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi1IQZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi1YQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi0YQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KrooQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDcoQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi1oQZEea6qMl1pKPjiQ" x="66" y="766"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dABi14QZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdmoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdm4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KrpYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi2oQZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi24QZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi3IQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi2IQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KrpIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDc4QZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi3YQZEea6qMl1pKPjiQ" x="57" y="186"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dABi3oQZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdnIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdnYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_Krp4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi4YQZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi4oQZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi44QZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi34QZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KrpoQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDdIQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi5IQZEea6qMl1pKPjiQ" x="110" y="476"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dABi5YQZEea6qMl1pKPjiQ" type="ActivityFinalNode_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdnoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdn4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_LSsYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi6IQZEea6qMl1pKPjiQ" type="ActivityFinalNode_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi6YQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dABi6oQZEea6qMl1pKPjiQ" type="ActivityFinalNode_StereotypeLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi64QZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi5oQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_LSsIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:ActivityFinalNode" href="Compra_Refrigerante.uml#_V3uDdYQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi54QZEea6qMl1pKPjiQ" x="113" y="866"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dABi7IQZEea6qMl1pKPjiQ" type="DecisionNode_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdoIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdoYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_LSs4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ4IQZEea6qMl1pKPjiQ" type="DecisionNode_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ4YQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ4oQZEea6qMl1pKPjiQ" type="DecisionNode_DecisionInputLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ44QZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ5IQZEea6qMl1pKPjiQ" type="DecisionNode_StereotypeLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ5YQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi7YQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_LSsoQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:DecisionNode" href="Compra_Refrigerante.uml#_V3uDdoQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi7oQZEea6qMl1pKPjiQ" x="175" y="576"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dACJ5oQZEea6qMl1pKPjiQ" type="FlowFinalNode_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdooQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdo4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_LStYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ6YQZEea6qMl1pKPjiQ" type="FlowFinalNode_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ6oQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ64QZEea6qMl1pKPjiQ" type="FlowFinalNode_StereotypeLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ7IQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ54QZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_LStIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:FlowFinalNode" href="Compra_Refrigerante.uml#_V3uDd4QZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ6IQZEea6qMl1pKPjiQ" x="237" y="666"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dACJ7YQZEea6qMl1pKPjiQ" type="DecisionNode_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdpIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdpYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_L5wYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ8IQZEea6qMl1pKPjiQ" type="DecisionNode_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ8YQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ8oQZEea6qMl1pKPjiQ" type="DecisionNode_DecisionInputLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ84QZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ9IQZEea6qMl1pKPjiQ" type="DecisionNode_StereotypeLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ9YQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ7oQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_L5wIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:DecisionNode" href="Compra_Refrigerante.uml#_V3uDeIQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ74QZEea6qMl1pKPjiQ" x="103" y="386"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dACJ9oQZEea6qMl1pKPjiQ" type="InitialNode_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdpoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdp4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_L5w4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ-YQZEea6qMl1pKPjiQ" type="InitialNode_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ-oQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACJ-4QZEea6qMl1pKPjiQ" type="InitialNode_StereotypeLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ_IQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ94QZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_L5woQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:InitialNode" href="Compra_Refrigerante.uml#_V3uDeYQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ-IQZEea6qMl1pKPjiQ" x="103" y="30"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_dACJ_YQZEea6qMl1pKPjiQ" type="ActivityPartition_Shape">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBEEoIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBEEoYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_L5xYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACKAIQZEea6qMl1pKPjiQ" type="ActivityPartition_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_dACKAYQZEea6qMl1pKPjiQ" type="ActivityPartition_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_dACKAoQZEea6qMl1pKPjiQ" y="5"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_dACKA4QZEea6qMl1pKPjiQ" type="ActivityPartition_ActivityNodeCompartment">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAln8IQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAln8YQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+        <children xmi:type="notation:Shape" xmi:id="_dAA7wIQZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdkoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdk4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KEkYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
           </eAnnotations>
-          <children xmi:type="notation:Shape" xmi:id="_d_Mg0IQZEea6qMl1pKPjiQ" type="ActivityPartition_Shape">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAln8oQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAln84QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-            </eAnnotations>
-            <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg04QZEea6qMl1pKPjiQ" type="ActivityPartition_NameLabel"/>
-            <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg1IQZEea6qMl1pKPjiQ" type="ActivityPartition_FloatingNameLabel">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Mg1YQZEea6qMl1pKPjiQ" y="5"/>
-            </children>
-            <children xmi:type="notation:BasicCompartment" xmi:id="_d_Mg1oQZEea6qMl1pKPjiQ" type="ActivityPartition_ActivityNodeCompartment">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg14QZEea6qMl1pKPjiQ"/>
-            </children>
-            <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_d_Mg0YQZEea6qMl1pKPjiQ"/>
-            <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_V3uDY4QZEea6qMl1pKPjiQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg0oQZEea6qMl1pKPjiQ" x="30" y="30"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dAA7w4QZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dAA7xIQZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA7xYQZEea6qMl1pKPjiQ" y="5"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_d_Mg2IQZEea6qMl1pKPjiQ" type="ActivityPartition_Shape">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAln9IQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAln9YQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-            </eAnnotations>
-            <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg24QZEea6qMl1pKPjiQ" type="ActivityPartition_NameLabel"/>
-            <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg3IQZEea6qMl1pKPjiQ" type="ActivityPartition_FloatingNameLabel">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Mg3YQZEea6qMl1pKPjiQ" y="5"/>
-            </children>
-            <children xmi:type="notation:BasicCompartment" xmi:id="_d_Mg3oQZEea6qMl1pKPjiQ" type="ActivityPartition_ActivityNodeCompartment">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg34QZEea6qMl1pKPjiQ"/>
-            </children>
-            <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_d_Mg2YQZEea6qMl1pKPjiQ"/>
-            <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_V3uDZIQZEea6qMl1pKPjiQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg2oQZEea6qMl1pKPjiQ" x="130" y="30"/>
-          </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACKBIQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dAA7wYQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KEkIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDb4QZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAA7xoQZEea6qMl1pKPjiQ" x="70" y="666"/>
         </children>
-        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ_oQZEea6qMl1pKPjiQ"/>
-        <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_L5xIQZEea6qMl1pKPjiQ" canonical="false"/>
-        <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_V3uDYoQZEea6qMl1pKPjiQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ_4QZEea6qMl1pKPjiQ" x="184" y="30"/>
+        <children xmi:type="notation:Shape" xmi:id="_dAA7x4QZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdlIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdlYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KEk4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dAA7yoQZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dAA7y4QZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA7zIQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dAA7yIQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KEkoQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDcIQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAA7zYQZEea6qMl1pKPjiQ" x="48" y="286"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dAA7zoQZEea6qMl1pKPjiQ" type="FlowFinalNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdloQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdl4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KroYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dAA70YQZEea6qMl1pKPjiQ" type="FlowFinalNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA70oQZEea6qMl1pKPjiQ" x="-24" y="46"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dAA704QZEea6qMl1pKPjiQ" type="FlowFinalNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dAA71IQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dAA7z4QZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KroIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:FlowFinalNode" href="Compra_Refrigerante.uml#_V3uDcYQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAA70IQZEea6qMl1pKPjiQ" x="30" y="476"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dABi0IQZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdmIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdmYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_Kro4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi04QZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi1IQZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi1YQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi0YQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KrooQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDcoQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi1oQZEea6qMl1pKPjiQ" x="66" y="766"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dABi14QZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdmoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdm4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_KrpYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi2oQZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi24QZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi3IQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi2IQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KrpIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDc4QZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi3YQZEea6qMl1pKPjiQ" x="57" y="186"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dABi3oQZEea6qMl1pKPjiQ" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdnIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdnYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_Krp4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi4YQZEea6qMl1pKPjiQ" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi4oQZEea6qMl1pKPjiQ" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi44QZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi34QZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_KrpoQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_V3uDdIQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi5IQZEea6qMl1pKPjiQ" x="110" y="476"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dABi5YQZEea6qMl1pKPjiQ" type="ActivityFinalNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdnoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdn4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_LSsYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi6IQZEea6qMl1pKPjiQ" type="ActivityFinalNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi6YQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dABi6oQZEea6qMl1pKPjiQ" type="ActivityFinalNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dABi64QZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi5oQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_LSsIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:ActivityFinalNode" href="Compra_Refrigerante.uml#_V3uDdYQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi54QZEea6qMl1pKPjiQ" x="113" y="866"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dABi7IQZEea6qMl1pKPjiQ" type="DecisionNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdoIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdoYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_LSs4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ4IQZEea6qMl1pKPjiQ" type="DecisionNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ4YQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ4oQZEea6qMl1pKPjiQ" type="DecisionNode_DecisionInputLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ44QZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ5IQZEea6qMl1pKPjiQ" type="DecisionNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ5YQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dABi7YQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_LSsoQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:DecisionNode" href="Compra_Refrigerante.uml#_V3uDdoQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dABi7oQZEea6qMl1pKPjiQ" x="175" y="576"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dACJ5oQZEea6qMl1pKPjiQ" type="FlowFinalNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdooQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdo4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_LStYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ6YQZEea6qMl1pKPjiQ" type="FlowFinalNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ6oQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ64QZEea6qMl1pKPjiQ" type="FlowFinalNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ7IQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ54QZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_LStIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:FlowFinalNode" href="Compra_Refrigerante.uml#_V3uDd4QZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ6IQZEea6qMl1pKPjiQ" x="237" y="666"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dACJ7YQZEea6qMl1pKPjiQ" type="DecisionNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdpIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdpYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_L5wYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ8IQZEea6qMl1pKPjiQ" type="DecisionNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ8YQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ8oQZEea6qMl1pKPjiQ" type="DecisionNode_DecisionInputLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ84QZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ9IQZEea6qMl1pKPjiQ" type="DecisionNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ9YQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ7oQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_L5wIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:DecisionNode" href="Compra_Refrigerante.uml#_V3uDeIQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ74QZEea6qMl1pKPjiQ" x="103" y="386"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dACJ9oQZEea6qMl1pKPjiQ" type="InitialNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBDdpoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBDdp4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_L5w4QZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ-YQZEea6qMl1pKPjiQ" type="InitialNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ-oQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACJ-4QZEea6qMl1pKPjiQ" type="InitialNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACJ_IQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ94QZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_L5woQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:InitialNode" href="Compra_Refrigerante.uml#_V3uDeYQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ-IQZEea6qMl1pKPjiQ" x="103" y="30"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dACJ_YQZEea6qMl1pKPjiQ" type="ActivityPartition_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dBEEoIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBEEoYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_L5xYQZEea6qMl1pKPjiQ" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACKAIQZEea6qMl1pKPjiQ" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dACKAYQZEea6qMl1pKPjiQ" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dACKAoQZEea6qMl1pKPjiQ" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_dACKA4QZEea6qMl1pKPjiQ" type="ActivityPartition_ActivityNodeCompartment">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAln8IQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAln8YQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+            </eAnnotations>
+            <children xmi:type="notation:Shape" xmi:id="_d_Mg0IQZEea6qMl1pKPjiQ" type="ActivityPartition_Shape">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAln8oQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAln84QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+              </eAnnotations>
+              <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg04QZEea6qMl1pKPjiQ" type="ActivityPartition_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg1IQZEea6qMl1pKPjiQ" type="ActivityPartition_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Mg1YQZEea6qMl1pKPjiQ" y="5"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_d_Mg1oQZEea6qMl1pKPjiQ" type="ActivityPartition_ActivityNodeCompartment">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg14QZEea6qMl1pKPjiQ"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_d_Mg0YQZEea6qMl1pKPjiQ"/>
+              <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_V3uDY4QZEea6qMl1pKPjiQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg0oQZEea6qMl1pKPjiQ" x="30" y="30"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_d_Mg2IQZEea6qMl1pKPjiQ" type="ActivityPartition_Shape">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAln9IQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAln9YQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+              </eAnnotations>
+              <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg24QZEea6qMl1pKPjiQ" type="ActivityPartition_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_d_Mg3IQZEea6qMl1pKPjiQ" type="ActivityPartition_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Mg3YQZEea6qMl1pKPjiQ" y="5"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_d_Mg3oQZEea6qMl1pKPjiQ" type="ActivityPartition_ActivityNodeCompartment">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg34QZEea6qMl1pKPjiQ"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_d_Mg2YQZEea6qMl1pKPjiQ"/>
+              <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_V3uDZIQZEea6qMl1pKPjiQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_Mg2oQZEea6qMl1pKPjiQ" x="130" y="30"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACKBIQZEea6qMl1pKPjiQ"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dACJ_oQZEea6qMl1pKPjiQ"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_d_L5xIQZEea6qMl1pKPjiQ" canonical="false"/>
+          <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_V3uDYoQZEea6qMl1pKPjiQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dACJ_4QZEea6qMl1pKPjiQ" x="184" y="30"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYYYQZEea6qMl1pKPjiQ"/>
       </children>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYYYQZEea6qMl1pKPjiQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_c_-fgIQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_V3uDYYQZEea6qMl1pKPjiQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYYoQZEea6qMl1pKPjiQ"/>
     </children>
-    <styles xmi:type="notation:CanonicalStyle" xmi:id="_c_-fgIQZEea6qMl1pKPjiQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_cHfYY4QZEea6qMl1pKPjiQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_cHfYZIQZEea6qMl1pKPjiQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_cHfYZYQZEea6qMl1pKPjiQ">
+      <owner xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_V3uDYYQZEea6qMl1pKPjiQ"/>
+    </styles>
     <element xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_V3uDYYQZEea6qMl1pKPjiQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHfYYoQZEea6qMl1pKPjiQ"/>
-  </children>
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_cHfYY4QZEea6qMl1pKPjiQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_cHfYZIQZEea6qMl1pKPjiQ"/>
-  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_cHfYZYQZEea6qMl1pKPjiQ">
-    <owner xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_V3uDYYQZEea6qMl1pKPjiQ"/>
-  </styles>
-  <element xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_V3uDYYQZEea6qMl1pKPjiQ"/>
-  <edges xmi:type="notation:Connector" xmi:id="_d_Xf8IQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dAA7wIQZEea6qMl1pKPjiQ" target="_dABi0IQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAm2EIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAm2EYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf84QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z4oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf9IQZEea6qMl1pKPjiQ" y="20"/>
+    <edges xmi:type="notation:Connector" xmi:id="_d_Xf8IQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dAA7wIQZEea6qMl1pKPjiQ" target="_dABi0IQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAm2EIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAm2EYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf84QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z4oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf9IQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf9YQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z44QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf9oQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf94QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z5IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf-IQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf-YQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z5YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf-oQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_Xf8YQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDZoQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_Xf8oQZEea6qMl1pKPjiQ" points="[123, 706, -643984, -643984]$[123, 766, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApFIQZEea6qMl1pKPjiQ" id="(0.4953271028037383,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApFYQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_YHAIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi7IQZEea6qMl1pKPjiQ" target="_dAA7wIQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAm2EoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAm2E4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_YuEIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wloQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuEYQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_YuEoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XoIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuE4QZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_YuFIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XoYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuFYQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_YuFoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XooQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuF4QZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_YHAYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDZYQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_YHAoQZEea6qMl1pKPjiQ" points="[181, 606, -643984, -643984]$[123, 666, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApEIQZEea6qMl1pKPjiQ" id="(0.3,0.8333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApEYQZEea6qMl1pKPjiQ" id="(0.4953271028037383,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_Z8MIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dAA7x4QZEea6qMl1pKPjiQ" target="_dACJ7YQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAndIIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAndIYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8M4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M0YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8NIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8NYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M0oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8NoQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8N4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M04QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8OIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8OYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M1IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8OoQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_Z8MYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDbYQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_Z8MoQZEea6qMl1pKPjiQ" points="[113, 326, -643984, -643984]$[113, 386, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etACAIQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etACAYQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_ajQIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi14QZEea6qMl1pKPjiQ" target="_dAA7x4QZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAndIoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAndI4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_ajQ4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a8IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajRIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_ajRYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a8YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajRoQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_ajR4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a8oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajSIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_ajSYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a84QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajSoQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_ajQYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDZ4QZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_ajQoQZEea6qMl1pKPjiQ" points="[113, 226, -643984, -643984]$[113, 286, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQIYQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQIoQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_bxYIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dACJ7YQZEea6qMl1pKPjiQ" target="_dAA7zoQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAorQIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAorQYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_bxY4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7JgIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_bxZIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_cYcIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7JgYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_cYcYQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_cYcoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wkIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_cYc4QZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_cYdIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wkYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_cYdYQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_bxYYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDboQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_bxYoQZEea6qMl1pKPjiQ" points="[108, 416, -643984, -643984]$[40, 476, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQJYQZEea6qMl1pKPjiQ" id="(0.35,0.8666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3MIQZEea6qMl1pKPjiQ" id="(0.4,0.05)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_c_gIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi0IQZEea6qMl1pKPjiQ" target="_dABi5YQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAorQoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAorQ4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_c_g4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wkoQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_c_hIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_dmkIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wk4QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_dmkYQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_dmkoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wlIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_dmk4QZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_dmlIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wlYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_dmlYQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_c_gYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDaoQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_c_goQZEea6qMl1pKPjiQ" points="[123, 806, -643984, -643984]$[123, 866, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApFoQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQIIQZEea6qMl1pKPjiQ" id="(0.45,0.05)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_gC0IQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dACJ9oQZEea6qMl1pKPjiQ" target="_dABi14QZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eApSUIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eApSUYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_gC04QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M1YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gC1IQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_gC1YQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M1oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gC1oQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_gp4IQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z4IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gp4YQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_gp4oQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z4YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gp44QZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_gC0YQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDa4QZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_gC0oQZEea6qMl1pKPjiQ" points="[113, 50, -643984, -643984]$[113, 186, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3M4QZEea6qMl1pKPjiQ" id="(0.45,0.95)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3NIQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_jGIIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi3oQZEea6qMl1pKPjiQ" target="_dABi7IQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eApSUoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAp5YIQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jGI4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-sYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jGJIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jGJYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-soQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtMIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jtMYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-s4QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtMoQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jtM4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-tIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtNIQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_jGIYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDaIQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_jGIoQZEea6qMl1pKPjiQ" points="[185, 516, -643984, -643984]$[185, 576, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQI4QZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQJIQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_jtN4QZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dACJ7YQZEea6qMl1pKPjiQ" target="_dABi3oQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAp5YYQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAp5YoQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jtOoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es9lwIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtO4QZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jtPIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es9lwYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtPYQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jtPoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es9lwoQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtP4QZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_jtQIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M0IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtQYQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_jtOIQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDaYQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_jtOYQZEea6qMl1pKPjiQ" points="[113, 416, -643984, -643984]$[185, 476, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3MYQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3MoQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_d_liYIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi7IQZEea6qMl1pKPjiQ" target="_dACJ5oQZEea6qMl1pKPjiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAqgcIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAqgcYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_liY4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8Xo4QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liZIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_liZYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XpIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liZoQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_liZ4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XpYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liaIQZEea6qMl1pKPjiQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_d_liaYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-sIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liaoQZEea6qMl1pKPjiQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_d_liYYQZEea6qMl1pKPjiQ"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDbIQZEea6qMl1pKPjiQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_liYoQZEea6qMl1pKPjiQ" points="[188, 606, -643984, -643984]$[247, 666, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApEoQZEea6qMl1pKPjiQ" id="(0.55,0.9)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApE4QZEea6qMl1pKPjiQ" id="(0.5,0.05)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_B8utwIWcEeajhfcBCNCdCg" type="PapyrusUMLActivityDiagram" name="ActivityDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_B8utwYWcEeajhfcBCNCdCg" type="Activity_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CpJu4IWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CpJu4YWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_B8utwoWcEeajhfcBCNCdCg" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_B8utw4WcEeajhfcBCNCdCg" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_B8utxIWcEeajhfcBCNCdCg" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_B8utxYWcEeajhfcBCNCdCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_B8utxoWcEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8utx4WcEeajhfcBCNCdCg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_B8utyIWcEeajhfcBCNCdCg" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_B8utyYWcEeajhfcBCNCdCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_B8utyoWcEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8uty4WcEeajhfcBCNCdCg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_B8utzIWcEeajhfcBCNCdCg" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_B8utzYWcEeajhfcBCNCdCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_B8utzoWcEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8utz4WcEeajhfcBCNCdCg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_B8ut0IWcEeajhfcBCNCdCg" type="Activity_ActivityNodeCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevsIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsevsYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_CpY_cIWcEeajhfcBCNCdCg" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevsoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Csevs4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfdEwYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpY_c4WcEeajhfcBCNCdCg" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpY_dIWcEeajhfcBCNCdCg" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpY_dYWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpY_cYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfdEwIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_eQ76b4TEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpaNkIWcEeajhfcBCNCdCg" x="156" y="286"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Cpa0oIWcEeajhfcBCNCdCg" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevtIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsevtYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dfdr0YWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpa0o4WcEeajhfcBCNCdCg" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpa0pIWcEeajhfcBCNCdCg" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cpa0pYWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Cpa0oYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_Dfdr0IWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_eQ76cITEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cpa0poWcEeajhfcBCNCdCg" x="74" y="476"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpbbsIWcEeajhfcBCNCdCg" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevtoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Csevt4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfeS4YWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpbbs4WcEeajhfcBCNCdCg" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpbbtIWcEeajhfcBCNCdCg" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpbbtYWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpbbsYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfeS4IWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_eQ76cYTEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpbbtoWcEeajhfcBCNCdCg" x="165" y="186"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpcCwIWcEeajhfcBCNCdCg" type="DecisionNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevuIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsevuYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfeS44WcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpcCw4WcEeajhfcBCNCdCg" type="DecisionNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpcCxIWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpcCxYWcEeajhfcBCNCdCg" type="DecisionNode_DecisionInputLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpcCxoWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpcCx4WcEeajhfcBCNCdCg" type="DecisionNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpcCyIWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpcCwYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfeS4oWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:DecisionNode" href="Compra_Refrigerante.uml#_eQ76coTEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpcCwoWcEeajhfcBCNCdCg" x="139" y="576"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Cpcp0IWcEeajhfcBCNCdCg" type="ActivityFinalNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevuoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Csevu4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DffhAYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpcp04WcEeajhfcBCNCdCg" type="ActivityFinalNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cpcp1IWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpcp1YWcEeajhfcBCNCdCg" type="ActivityFinalNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cpcp1oWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Cpcp0YWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DffhAIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:ActivityFinalNode" href="Compra_Refrigerante.uml#_eQ76c4TEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cpcp0oWcEeajhfcBCNCdCg" x="77" y="866"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpdQ4IWcEeajhfcBCNCdCg" type="InitialNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevvIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsevvYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfgIEYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpdQ44WcEeajhfcBCNCdCg" type="InitialNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpdQ5IWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpdQ5YWcEeajhfcBCNCdCg" type="InitialNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpdQ5oWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpdQ4YWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfgIEIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:InitialNode" href="Compra_Refrigerante.uml#_eQ76dITEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpdQ4oWcEeajhfcBCNCdCg" x="211" y="30"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Cpd38IWcEeajhfcBCNCdCg" type="DecisionNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevvoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Csevv4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfgvIIWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpd384WcEeajhfcBCNCdCg" type="DecisionNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cpd39IWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpd39YWcEeajhfcBCNCdCg" type="DecisionNode_DecisionInputLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cpd39oWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Cpd394WcEeajhfcBCNCdCg" type="DecisionNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cpd3-IWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Cpd38YWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfgIEoWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:DecisionNode" href="Compra_Refrigerante.uml#_eQ76dYTEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cpd38oWcEeajhfcBCNCdCg" x="211" y="386"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpefAIWcEeajhfcBCNCdCg" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevwIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsevwYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfgvIoWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpefA4WcEeajhfcBCNCdCg" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpefBIWcEeajhfcBCNCdCg" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpefBYWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpefAYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfgvIYWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_eQ76doTEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpefBoWcEeajhfcBCNCdCg" x="34" y="666"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpefB4WcEeajhfcBCNCdCg" type="FlowFinalNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevwoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Csevw4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfhWMYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpfGEIWcEeajhfcBCNCdCg" type="FlowFinalNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpfGEYWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpfGEoWcEeajhfcBCNCdCg" type="FlowFinalNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpfGE4WcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpefCIWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfhWMIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:FlowFinalNode" href="Compra_Refrigerante.uml#_eQ76d4TEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpefCYWcEeajhfcBCNCdCg" x="284" y="476"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpfGFIWcEeajhfcBCNCdCg" type="FlowFinalNode_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevxIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsevxYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfikUYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpfGF4WcEeajhfcBCNCdCg" type="FlowFinalNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpfGGIWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpfGGYWcEeajhfcBCNCdCg" type="FlowFinalNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpfGGoWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpfGFYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfikUIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:FlowFinalNode" href="Compra_Refrigerante.uml#_eQ76eITEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpfGFoWcEeajhfcBCNCdCg" x="201" y="666"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpftIIWcEeajhfcBCNCdCg" type="OpaqueAction_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsevxoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsfWwIWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfjLYYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpftI4WcEeajhfcBCNCdCg" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpftJIWcEeajhfcBCNCdCg" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpftJYWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpftIYWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfjLYIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:OpaqueAction" href="Compra_Refrigerante.uml#_eQ76eYTEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpgUMIWcEeajhfcBCNCdCg" x="30" y="766"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CpgUMYWcEeajhfcBCNCdCg" type="ActivityPartition_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CsfWwYWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CsfWwoWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfjycYWcEeajhfcBCNCdCg" key="canonical" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpgUNIWcEeajhfcBCNCdCg" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CpgUNYWcEeajhfcBCNCdCg" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CpgUNoWcEeajhfcBCNCdCg" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_CpgUN4WcEeajhfcBCNCdCg" type="ActivityPartition_ActivityNodeCompartment">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DikDIIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DikDIYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+            </eAnnotations>
+            <children xmi:type="notation:Shape" xmi:id="_DflAkIWcEeajhfcBCNCdCg" type="ActivityPartition_Shape">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DikDIoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DikDI4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+              </eAnnotations>
+              <children xmi:type="notation:DecorationNode" xmi:id="_DflAk4WcEeajhfcBCNCdCg" type="ActivityPartition_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_DflnoIWcEeajhfcBCNCdCg" type="ActivityPartition_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DflnoYWcEeajhfcBCNCdCg" y="5"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_DflnooWcEeajhfcBCNCdCg" type="ActivityPartition_ActivityNodeCompartment">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dflno4WcEeajhfcBCNCdCg"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_DflAkYWcEeajhfcBCNCdCg"/>
+              <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_eQ76Y4TEEeaM7fyPQJmjLw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DflAkoWcEeajhfcBCNCdCg" x="30" y="30"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DflnpIWcEeajhfcBCNCdCg" type="ActivityPartition_Shape">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DikDJIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DikDJYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+              </eAnnotations>
+              <children xmi:type="notation:DecorationNode" xmi:id="_DfmOsIWcEeajhfcBCNCdCg" type="ActivityPartition_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_DfmOsYWcEeajhfcBCNCdCg" type="ActivityPartition_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DfmOsoWcEeajhfcBCNCdCg" y="5"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_DfmOs4WcEeajhfcBCNCdCg" type="ActivityPartition_ActivityNodeCompartment">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DfmOtIWcEeajhfcBCNCdCg"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_DflnpYWcEeajhfcBCNCdCg"/>
+              <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_eQ76ZITEEeaM7fyPQJmjLw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DflnpoWcEeajhfcBCNCdCg" x="130" y="30"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpgUOIWcEeajhfcBCNCdCg"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CpgUMoWcEeajhfcBCNCdCg"/>
+          <styles xmi:type="notation:CanonicalStyle" xmi:id="_DfjycIWcEeajhfcBCNCdCg"/>
+          <element xmi:type="uml:ActivityPartition" href="Compra_Refrigerante.uml#_eQ76YoTEEeaM7fyPQJmjLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CpgUM4WcEeajhfcBCNCdCg" x="291" y="30"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8ut0YWcEeajhfcBCNCdCg"/>
+      </children>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_CpIgwIWcEeajhfcBCNCdCg" canonical="false"/>
+      <element xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_eQ76YYTEEeaM7fyPQJmjLw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8ut0oWcEeajhfcBCNCdCg"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf9YQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z44QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf9oQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf94QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z5IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf-IQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Xf-YQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z5YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Xf-oQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_Xf8YQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDZoQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_Xf8oQZEea6qMl1pKPjiQ" points="[123, 706, -643984, -643984]$[123, 766, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApFIQZEea6qMl1pKPjiQ" id="(0.4953271028037383,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApFYQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_YHAIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi7IQZEea6qMl1pKPjiQ" target="_dAA7wIQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAm2EoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAm2E4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_YuEIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wloQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuEYQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_YuEoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XoIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuE4QZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_YuFIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XoYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuFYQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_YuFoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XooQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_YuF4QZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_YHAYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDZYQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_YHAoQZEea6qMl1pKPjiQ" points="[181, 606, -643984, -643984]$[123, 666, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApEIQZEea6qMl1pKPjiQ" id="(0.3,0.8333333333333334)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApEYQZEea6qMl1pKPjiQ" id="(0.4953271028037383,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_Z8MIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dAA7x4QZEea6qMl1pKPjiQ" target="_dACJ7YQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAndIIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAndIYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8M4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M0YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8NIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8NYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M0oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8NoQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8N4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M04QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8OIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_Z8OYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M1IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_Z8OoQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_Z8MYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDbYQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_Z8MoQZEea6qMl1pKPjiQ" points="[113, 326, -643984, -643984]$[113, 386, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etACAIQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etACAYQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_ajQIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi14QZEea6qMl1pKPjiQ" target="_dAA7x4QZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAndIoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAndI4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_ajQ4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a8IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajRIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_ajRYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a8YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajRoQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_ajR4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a8oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajSIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_ajSYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es_a84QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_ajSoQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_ajQYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDZ4QZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_ajQoQZEea6qMl1pKPjiQ" points="[113, 226, -643984, -643984]$[113, 286, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQIYQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQIoQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_bxYIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dACJ7YQZEea6qMl1pKPjiQ" target="_dAA7zoQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAorQIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAorQYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_bxY4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7JgIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_bxZIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_cYcIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7JgYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_cYcYQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_cYcoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wkIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_cYc4QZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_cYdIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wkYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_cYdYQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_bxYYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDboQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_bxYoQZEea6qMl1pKPjiQ" points="[108, 416, -643984, -643984]$[40, 476, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQJYQZEea6qMl1pKPjiQ" id="(0.35,0.8666666666666667)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3MIQZEea6qMl1pKPjiQ" id="(0.4,0.05)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_c_gIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi0IQZEea6qMl1pKPjiQ" target="_dABi5YQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAorQoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAorQ4QZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_c_g4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wkoQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_c_hIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_dmkIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wk4QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_dmkYQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_dmkoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wlIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_dmk4QZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_dmlIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es7wlYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_dmlYQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_c_gYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDaoQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_c_goQZEea6qMl1pKPjiQ" points="[123, 806, -643984, -643984]$[123, 866, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApFoQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQIIQZEea6qMl1pKPjiQ" id="(0.45,0.05)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_gC0IQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dACJ9oQZEea6qMl1pKPjiQ" target="_dABi14QZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eApSUIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eApSUYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_gC04QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M1YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gC1IQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_gC1YQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M1oQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gC1oQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_gp4IQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z4IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gp4YQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_gp4oQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-z4YQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_gp44QZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_gC0YQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDa4QZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_gC0oQZEea6qMl1pKPjiQ" points="[113, 50, -643984, -643984]$[113, 186, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3M4QZEea6qMl1pKPjiQ" id="(0.45,0.95)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3NIQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_jGIIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi3oQZEea6qMl1pKPjiQ" target="_dABi7IQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eApSUoQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAp5YIQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jGI4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-sYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jGJIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jGJYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-soQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtMIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jtMYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-s4QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtMoQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jtM4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-tIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtNIQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_jGIYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDaIQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_jGIoQZEea6qMl1pKPjiQ" points="[185, 516, -643984, -643984]$[185, 576, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQI4QZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etBQJIQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_jtN4QZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dACJ7YQZEea6qMl1pKPjiQ" target="_dABi3oQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAp5YYQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAp5YoQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jtOoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es9lwIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtO4QZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jtPIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es9lwYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtPYQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jtPoQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es9lwoQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtP4QZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_jtQIQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es-M0IQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_jtQYQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_jtOIQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDaYQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_jtOYQZEea6qMl1pKPjiQ" points="[113, 416, -643984, -643984]$[185, 476, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3MYQZEea6qMl1pKPjiQ" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etB3MoQZEea6qMl1pKPjiQ" id="(0.5,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d_liYIQZEea6qMl1pKPjiQ" type="ControlFlow_Edge" source="_dABi7IQZEea6qMl1pKPjiQ" target="_dACJ5oQZEea6qMl1pKPjiQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eAqgcIQZEea6qMl1pKPjiQ" source="PapyrusCSSForceValue">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eAqgcYQZEea6qMl1pKPjiQ" key="mutable" value="true"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_liY4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8Xo4QZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liZIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_liZYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_WeightLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XpIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liZoQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_liZ4QZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8XpYQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liaIQZEea6qMl1pKPjiQ" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_d_liaYQZEea6qMl1pKPjiQ" visible="false" type="ControlFlow_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_es8-sIQZEea6qMl1pKPjiQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_d_liaoQZEea6qMl1pKPjiQ" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_d_liYYQZEea6qMl1pKPjiQ"/>
-    <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_V3uDbIQZEea6qMl1pKPjiQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_liYoQZEea6qMl1pKPjiQ" points="[188, 606, -643984, -643984]$[247, 666, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApEoQZEea6qMl1pKPjiQ" id="(0.55,0.9)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etApE4QZEea6qMl1pKPjiQ" id="(0.5,0.05)"/>
-  </edges>
-</notation:Diagram>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_B8ut04WcEeajhfcBCNCdCg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_B8ut1IWcEeajhfcBCNCdCg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_B8ut1YWcEeajhfcBCNCdCg">
+      <owner xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_eQ76YYTEEeaM7fyPQJmjLw"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="Compra_Refrigerante.uml#_eQ76YYTEEeaM7fyPQJmjLw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_DgHMEIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpY_cIWcEeajhfcBCNCdCg" target="_Cpd38IWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DimfYIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DimfYYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgHzIIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isbf8IWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isbf8YWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvUKIYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgHzIYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgHzIoWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isbf9IWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isbf9YWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvUxMIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgHzI4WcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgHzJIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isa44IWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isa44YWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvUxMYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgHzJYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgHzJoWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isbf8oWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isbf84WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvUxMoWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgHzJ4WcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgHMEYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76aoTEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgHMEoWcEeajhfcBCNCdCg" points="[221, 326, -643984, -643984]$[221, 386, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Eva30YWcEeajhfcBCNCdCg" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Evbe4IWcEeajhfcBCNCdCg" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgSyQIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpbbsIWcEeajhfcBCNCdCg" target="_CpY_cIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DimfYoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DimfY4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgSyQ4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscHAIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscHAYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvXNcIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgSyRIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgSyRYWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscHBIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscHBYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvXNcYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgSyRoWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgSyR4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isbf9oWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isbf94WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvXNcoWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgSySIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgSySYWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscHAoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscHA4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvX0gIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgSySoWcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgSyQYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76bYTEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgSyQoWcEeajhfcBCNCdCg" points="[221, 226, -643984, -643984]$[221, 286, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvaQwIWcEeajhfcBCNCdCg" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Eva30IWcEeajhfcBCNCdCg" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgXqwIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_Cpa0oIWcEeajhfcBCNCdCg" target="_CpcCwIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DioUkIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DioUkYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgYR0IWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscuEIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscuEYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvP4sIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgYR0YWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgYR0oWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscuFIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscuFYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvP4sYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgYR04WcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgYR1IWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscHBoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscHB4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvP4soWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgYR1YWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgYR1oWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscuEoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IscuE4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvQfwIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgYR14WcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgXqwYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76ZoTEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgXqwoWcEeajhfcBCNCdCg" points="[149, 516, -643984, -643984]$[149, 576, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvgXYIWcEeajhfcBCNCdCg" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvgXYYWcEeajhfcBCNCdCg" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgY44IWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_Cpd38IWcEeajhfcBCNCdCg" target="_Cpa0oIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DioUkoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DioUk4WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgZf8IWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsdVIYWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsdVIoWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvSU8YWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgZf8YWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgZf8oWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsdVJYWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsdVJoWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvS8AIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgZf84WcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgZf9IWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IscuFoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsdVIIWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvS8AYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgZf9YWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgZf9oWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsdVI4WcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsdVJIWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvS8AoWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgZf94WcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgY44YWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76ZYTEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgY44oWcEeajhfcBCNCdCg" points="[221, 416, -643984, -643984]$[149, 476, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvdUEIWcEeajhfcBCNCdCg" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvdUEYWcEeajhfcBCNCdCg" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgdxYIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpdQ4IWcEeajhfcBCNCdCg" target="_CpbbsIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DipisIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DipisYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgdxY4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isd8MIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isd8MYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvRt4IWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgdxZIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgeYcIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isd8NIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isd8NYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvRt4YWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgeYcYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgeYcoWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsdVJ4WcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsdVKIWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvRt4oWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgeYc4WcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgeYdIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isd8MoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isd8M4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvSU8IWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgeYdYWcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgdxYYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76aITEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgdxYoWcEeajhfcBCNCdCg" points="[221, 50, -643984, -643984]$[221, 186, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvfwUIWcEeajhfcBCNCdCg" id="(0.45,0.95)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvfwUYWcEeajhfcBCNCdCg" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgniYIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpcCwIWcEeajhfcBCNCdCg" target="_CpefAIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Diqw0IWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Diqw0YWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgoJcIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsejQIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsejQYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvNccIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgoJcYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgoJcoWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsejRIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsejRYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvODgIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgoJc4WcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgoJdIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isd8NoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isd8N4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvODgYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgoJdYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgoJdoWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsejQoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsejQ4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvOqkIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DgoJd4WcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgniYYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76boTEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgniYoWcEeajhfcBCNCdCg" points="[145, 606, -643984, -643984]$[87, 666, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EveiMYWcEeajhfcBCNCdCg" id="(0.4,0.9333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvfJQIWcEeajhfcBCNCdCg" id="(0.4953271028037383,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgpXkIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpcCwIWcEeajhfcBCNCdCg" target="_CpfGFIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Diqw0oWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Diqw04WcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DgpXk4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfKUIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfKUYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvOqkYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgp-oIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgp-oYWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfKVIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfKVYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvOqkoWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgp-ooWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgp-o4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsejRoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsejR4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvPRoIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgp-pIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgp-pYWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfKUoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfKU4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvPRoYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgp-poWcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgpXkYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76aYTEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgpXkoWcEeajhfcBCNCdCg" points="[152, 606, -643984, -643984]$[211, 666, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Evd7IIWcEeajhfcBCNCdCg" id="(0.55,0.9)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EveiMIWcEeajhfcBCNCdCg" id="(0.55,0.05)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DgxTYIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpftIIWcEeajhfcBCNCdCg" target="_Cpcp0IWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dir-8IWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dir-8YWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgx6cIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfKWIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfKWYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvQfwYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgx6cYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgx6coWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfxYoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfxY4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvRG0IWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgx6c4WcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgx6dIWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfKVoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfKV4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvRG0YWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgx6dYWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dgx6doWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfxYIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfxYYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvRG0oWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dgx6d4WcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DgxTYYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76Z4TEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DgxTYoWcEeajhfcBCNCdCg" points="[87, 806, -643984, -643984]$[87, 866, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvcF8IWcEeajhfcBCNCdCg" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvcF8YWcEeajhfcBCNCdCg" id="(0.5,0.05)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Dg09wIWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_Cpd38IWcEeajhfcBCNCdCg" target="_CpefB4WcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DitNEIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DitNEYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg09w4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfxZoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfxZ4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvTjEIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg09xIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg09xYWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsgYcoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsgYc4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvTjEYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg09xoWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg09x4WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsfxZIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsfxZYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvTjEoWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg09yIWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg1k0IWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsgYcIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsgYcYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvUKIIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg1k0YWcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Dg09wYWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76a4TEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dg09woWcEeajhfcBCNCdCg" points="[226, 416, -643984, -643984]$[294, 476, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvctAIWcEeajhfcBCNCdCg" id="(0.6,0.8666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EvctAYWcEeajhfcBCNCdCg" id="(0.55,0.05)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Dg_84IWcEeajhfcBCNCdCg" type="ControlFlow_Edge" source="_CpefAIWcEeajhfcBCNCdCg" target="_CpftIIWcEeajhfcBCNCdCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dit0IIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dit0IYWcEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg_844WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_NameLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsgYdoWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsgYd4WcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvV_UIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg_85IWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg_85YWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_WeightLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Isg_gYWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isg_goWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvV_UYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg_85oWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg_854WcEeajhfcBCNCdCg" visible="false" type="ControlFlow_GuardLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsgYdIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IsgYdYWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvWmYIWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg_86IWcEeajhfcBCNCdCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Dg_86YWcEeajhfcBCNCdCg" visible="false" type="ControlFlow_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IsgYeIWcEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Isg_gIWcEeajhfcBCNCdCg" key="visible" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EvWmYYWcEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dg_86oWcEeajhfcBCNCdCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Dg_84YWcEeajhfcBCNCdCg"/>
+      <element xmi:type="uml:ControlFlow" href="Compra_Refrigerante.uml#_eQ76bITEEeaM7fyPQJmjLw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dg_84oWcEeajhfcBCNCdCg" points="[87, 706, -643984, -643984]$[87, 766, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Evg-cIWcEeajhfcBCNCdCg" id="(0.4953271028037383,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Evg-cYWcEeajhfcBCNCdCg" id="(0.5,0.0)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
