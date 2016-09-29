@@ -11,12 +11,11 @@ main() {
 }
 
 mapping Definitions::DefinitionsToModel2():Model {
-   -- Transforma Pool em ActivityPartition
-   -- Transforma Pool em ActivityFinalNode
-   -- Transforma Lane em ActivityPartition
-   var collaboration := self.subobjects()[Collaboration];
+    -- Transforma Pool em ActivityPartition
+    -- Transforma Lane em ActivityPartition
+   	var collaboration := self.subobjects()[Collaboration];
    
-   var lanes : Bag(Lane);
+	var lanes : Bag(Lane);
 	
 	if(collaboration->size() > 0)then{
 		--Se existe uma colaboração, cada Participant (Pool) será mapeado para um Actor
@@ -66,13 +65,50 @@ mapping SequenceFlow::SequenceFlowToControlFlow(inout model:Model):ControlFlow{
 --Participant (Pool) para ActivityPartition--
 ---------------------------------------------
 mapping Participant::ParticipantToActivityPartition(inout model:Model):uml::ActivityPartition{
+	
 	name := self.name;
 
 	--Cada Lane pertencente ao Participant, será transformada em ActivityPartition 
 	var lanes := self.processRef.laneSets.lanes; 
 	
-	lanes -> LaneToActivityPartition(result, model);
 	
+	if(lanes->size() > 0)
+	{
+		lanes -> LaneToActivityPartition(result, model);
+	}
+	else
+	{
+		-- Transforma Task em OpaqueAction		
+		var tasks := self.processRef.allSubobjectsOfKind(Task);
+		tasks->forEach(t)
+		{
+			t -> TaskToOpaqueAction(model, result);
+		};
+		
+		-- Transforma StartEvent em InitialNode
+		var start := self.processRef.allSubobjectsOfKind(StartEvent);
+		start -> StartToInitialNode(model, result);
+		
+		-- Transforma EndEvent em InitialNode
+		var endEv := self.processRef.allSubobjectsOfKind(EndEvent);	
+		endEv->forEach(e)
+		{
+			if(e.eventDefinitions->selectByKind(TerminateEventDefinition)->isEmpty())
+			{
+				e -> map EndEventeToFlowFinalNode(model, result);
+			}
+			else
+			{
+				e -> map EndEventeToActivityFinalNode(model, result);	
+			}
+			endif;
+		};
+		
+		--Transforma ExclusiveGateway para DecisionNode
+		var gat := self.processRef.allSubobjectsOfKind(ExclusiveGateway);
+		gat -> ExclusiveGatewayToDecisionNode(model, result);
+	}
+	endif;
 	--model.packagedElement += result;
 }
 
