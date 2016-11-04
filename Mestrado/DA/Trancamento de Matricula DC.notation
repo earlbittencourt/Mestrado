@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vjHM8IWtEeajhfcBCNCdCg" type="PapyrusUMLClassDiagram" name="Tracamento" measurementUnit="Pixel">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wiCTUYWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wiCTUoWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+  </eAnnotations>
+  <children xmi:type="notation:Shape" xmi:id="_wiF9sIWtEeajhfcBCNCdCg" type="Class_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGgIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGgYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yCuC8IWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiF9soWtEeajhfcBCNCdCg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiGkwIWtEeajhfcBCNCdCg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiGkwYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiGkwoWtEeajhfcBCNCdCg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiGkw4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiGkxIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiGkxYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiGkxoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiGkx4WtEeajhfcBCNCdCg" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiGkyIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiGkyYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiGkyoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiGky4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiGkzIWtEeajhfcBCNCdCg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiGkzYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiGkzoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiGkz4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiGk0IWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yCtb4IWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Class" href="Trancamento%20de%20Matricula%20DC.uml#_mDge84WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiF9sYWtEeajhfcBCNCdCg" x="4006" y="-7"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiGk0YWtEeajhfcBCNCdCg" type="Class_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGgoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGg4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yCuqAYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiGk04WtEeajhfcBCNCdCg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiGk1IWtEeajhfcBCNCdCg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiGk1YWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiGk1oWtEeajhfcBCNCdCg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiGk14WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiGk2IWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiGk2YWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiGk2oWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHL0IWtEeajhfcBCNCdCg" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIBZsIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yICAwIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_yCzigIWtEeajhfcBCNCdCg" type="Operation_ClassOperationLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yICAwYWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yICAwoWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfA4WtEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yCzigYWtEeajhfcBCNCdCg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yCzigoWtEeajhfcBCNCdCg" type="Operation_ClassOperationLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yICAw4WtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yICAxIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfBIWtEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yCzig4WtEeajhfcBCNCdCg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHL0YWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHL0oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHL04WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHL1IWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHL1YWtEeajhfcBCNCdCg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHL1oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHL14WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHL2IWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHL2YWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yCuqAIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Class" href="Trancamento%20de%20Matricula%20DC.uml#_mDge9IWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiGk0oWtEeajhfcBCNCdCg" x="2136" y="28"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiHL2oWtEeajhfcBCNCdCg" type="Class_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGhIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGhYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEVMgYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiHL3IWtEeajhfcBCNCdCg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiHL3YWtEeajhfcBCNCdCg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiHL3oWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHL34WtEeajhfcBCNCdCg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHL4IWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHL4YWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHL4oWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHL44WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHL5IWtEeajhfcBCNCdCg" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yICn0IWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yICn0YWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_yEVzkIWtEeajhfcBCNCdCg" type="Operation_ClassOperationLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yICn0oWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yICn04WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfEIWtEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yEVzkYWtEeajhfcBCNCdCg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yEVzkoWtEeajhfcBCNCdCg" type="Operation_ClassOperationLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yICn1IWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yICn1YWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfEYWtEeajhfcBCNCdCg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yEVzk4WtEeajhfcBCNCdCg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHL5YWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHL5oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHL54WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHL6IWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHL6YWtEeajhfcBCNCdCg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHL6oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHL64WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHL7IWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHL7YWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEVMgIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Class" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfBYWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHL24WtEeajhfcBCNCdCg" x="4972" y="28"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiHy4IWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGhoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGh4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEYP0IWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiHy4oWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiHy44WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiHy5IWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHy5YWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHy5oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHy54WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHy6IWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHy6YWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHy6oWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHy64WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHy7IWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHy7YWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHy7oWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHy74WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHy8IWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHy8YWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHy8oWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHy84WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEXowIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfEoWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHy4YWtEeajhfcBCNCdCg" x="29" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiHy9IWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGiIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGiYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEYP0oWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiHy9oWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiHy94WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiHy-IWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHy-YWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHy-oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHy-4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHy_IWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHy_YWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHy_oWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHy_4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHzAIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHzAYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHzAoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiHzA4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiHzBIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiHzBYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiHzBoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHzB4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEYP0YWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfE4WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiHy9YWtEeajhfcBCNCdCg" x="486" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiIZ8IWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGioWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGi4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEY24YWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiIZ8oWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiIZ84WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiIZ9IWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiIZ9YWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiIZ9oWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiIZ94WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiIZ-IWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIZ-YWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiIZ-oWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiIZ-4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiIZ_IWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiIZ_YWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIZ_oWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiIZ_4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiIaAIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiIaAYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiIaAoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIaA4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEY24IWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfFIWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIZ8YWtEeajhfcBCNCdCg" x="948" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiIaBIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGjIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGjYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEY244WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiIaBoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiIaB4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiIaCIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiIaCYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiIaCoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiIaC4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiIaDIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIaDYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiIaDoWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiIaD4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiIaEIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiIaEYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIaEoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiIaE4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiIaFIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiIaFYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiIaFoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIaF4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEY24oWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfFYWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiIaBYWtEeajhfcBCNCdCg" x="1167" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiJBAIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGjoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGj4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEZd8YWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJBAoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJBA4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiJBBIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJBBYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJBBoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJBB4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJBCIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBCYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJBCoWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJBC4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJBDIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJBDYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBDoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJBD4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJBEIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJBEYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJBEoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBE4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEZd8IWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfFoWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBAYWtEeajhfcBCNCdCg" x="1391" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiJBFIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGkIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGkYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEZd84WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJBFoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJBF4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiJBGIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJBGYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJBGoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJBG4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJBHIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBHYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJBHoWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJBH4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJBIIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJBIYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBIoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJBI4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJBJIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJBJYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJBJoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBJ4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEZd8oWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfF4WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJBFYWtEeajhfcBCNCdCg" x="1711" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiJoEIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGkoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGk4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEaFAYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJoEoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJoE4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiJoFIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJoFYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJoFoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJoF4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJoGIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoGYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJoGoWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJoG4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJoHIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJoHYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoHoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJoH4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJoIIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJoIYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJoIoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoI4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEaFAIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfGIWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoEYWtEeajhfcBCNCdCg" x="2036" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiJoJIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGlIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGlYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEaFA4WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJoJoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiJoJ4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiJoKIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJoKYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJoKoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJoK4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJoLIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoLYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJoLoWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJoL4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJoMIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJoMYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoMoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiJoM4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiJoNIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiJoNYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiJoNoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoN4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEaFAoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfGYWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoJYWtEeajhfcBCNCdCg" x="2336" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiJoOIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGloWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGl4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEasEYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiKPIIWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiKPIYWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiKPIoWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiKPI4WtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiKPJIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiKPJYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiKPJoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPJ4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiKPKIWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiKPKYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiKPKoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiKPK4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPLIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiKPLYWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiKPLoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiKPL4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiKPMIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPMYWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEasEIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfGoWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiJoOYWtEeajhfcBCNCdCg" x="4169" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiKPMoWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGmIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGmYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEbTIYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiKPNIWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiKPNYWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiKPNoWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiKPN4WtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiKPOIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiKPOYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiKPOoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPO4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiKPPIWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiKPPYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiKPPoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiKPP4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPQIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiKPQYWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiKPQoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiKPQ4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiKPRIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPRYWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEbTIIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfG4WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiKPM4WtEeajhfcBCNCdCg" x="4399" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiK2MIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGmoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGm4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEbTI4WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiK2MoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiK2M4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiK2NIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiK2NYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiK2NoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiK2N4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiK2OIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2OYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiK2OoWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiK2O4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiK2PIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiK2PYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2PoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiK2P4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiK2QIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiK2QYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiK2QoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2Q4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEbTIoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfHIWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2MYWtEeajhfcBCNCdCg" x="2641" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiK2RIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGnIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGnYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEb6MYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiK2RoWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiK2R4WtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiK2SIWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiK2SYWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiK2SoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiK2S4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiK2TIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2TYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiK2ToWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiK2T4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiK2UIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiK2UYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2UoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiK2U4WtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiK2VIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiK2VYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiK2VoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2V4WtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEb6MIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfHYWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2RYWtEeajhfcBCNCdCg" x="2871" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiK2WIWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGnoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGn4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEb6M4WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiLdQIWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiLdQYWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiLdQoWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiLdQ4WtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiLdRIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiLdRYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiLdRoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdR4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiLdSIWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiLdSYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiLdSoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiLdS4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdTIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiLdTYWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiLdToWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiLdT4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiLdUIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdUYWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEb6MoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfHoWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiK2WYWtEeajhfcBCNCdCg" x="4634" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiLdUoWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGoIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGoYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEchQYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiLdVIWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiLdVYWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiLdVoWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiLdV4WtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiLdWIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiLdWYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiLdWoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdW4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiLdXIWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiLdXYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiLdXoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiLdX4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdYIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiLdYYWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiLdYoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiLdY4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiLdZIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdZYWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEchQIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfH4WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdU4WtEeajhfcBCNCdCg" x="4857" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiLdZoWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGooWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGo4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEdIUIWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiLdaIWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMEUIWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiMEUYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMEUoWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMEU4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMEVIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMEVYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEVoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMEV4WtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMEWIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMEWYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMEWoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEW4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMEXIWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMEXYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMEXoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMEX4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEYIWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEchQoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfIIWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiLdZ4WtEeajhfcBCNCdCg" x="3106" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiMEYYWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGpIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGpYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEdIUoWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMEY4WtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMEZIWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiMEZYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMEZoWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMEZ4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMEaIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMEaYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEaoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMEa4WtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMEbIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMEbYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMEboWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEb4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMEcIWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMEcYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMEcoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMEc4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEdIWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEdIUYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfIYWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEYoWtEeajhfcBCNCdCg" x="3412" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiMEdYWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGpoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGp4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEdvYYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMEd4WtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMEeIWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiMEeYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMrYIWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMrYYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMrYoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMrY4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMrZIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMrZYWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMrZoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMrZ4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMraIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMraYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMraoWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMra4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMrbIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMrbYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMrboWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEdvYIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfIoWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMEdoWtEeajhfcBCNCdCg" x="3723" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiMrb4WtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGqIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGqYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEdvY4WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMrcYWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMrcoWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiMrc4WtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMrdIWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMrdYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMrdoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMrd4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMreIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMreYWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMreoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMre4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMrfIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMrfYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiMrfoWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiMrf4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiMrgIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiMrgYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMrgoWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEdvYoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfI4WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMrcIWtEeajhfcBCNCdCg" x="5085" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiMrg4WtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGqoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGq4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEeWcYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiMrhYWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiNScIWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiNScYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNScoWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSc4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSdIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSdYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSdoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNSd4WtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSeIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSeYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSeoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSe4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNSfIWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSfYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSfoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSf4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSgIWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEeWcIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfJIWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiMrhIWtEeajhfcBCNCdCg" x="5376" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiNSgYWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGrIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGrYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEeWc4WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiNSg4WtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiNShIWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiNShYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNShoWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSh4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSiIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSiYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSioWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNSi4WtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSjIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSjYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSjoWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSj4WtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNSkIWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSkYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSkoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSk4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSlIWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEeWcoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfJYWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSgoWtEeajhfcBCNCdCg" x="5610" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiNSlYWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGroWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGr4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEe9gYWtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiNSl4WtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiNSmIWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiNSmYWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiNSmoWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiNSm4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiNSnIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiNSnYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSnoWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiN5gIWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiN5gYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiN5goWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiN5g4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiN5hIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiN5hYWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiN5hoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiN5h4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiN5iIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiN5iYWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEe9gIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfJoWtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiNSloWtEeajhfcBCNCdCg" x="5849" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wiN5ioWtEeajhfcBCNCdCg" type="Interface_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wmpGsIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wmpGsYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEe9g4WtEeajhfcBCNCdCg" key="canonical" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiN5jIWtEeajhfcBCNCdCg" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiN5jYWtEeajhfcBCNCdCg" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiN5joWtEeajhfcBCNCdCg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiOgkIWtEeajhfcBCNCdCg" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiOgkYWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiOgkoWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiOgk4WtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiOglIWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiOglYWtEeajhfcBCNCdCg" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiOgloWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiOgl4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiOgmIWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiOgmYWtEeajhfcBCNCdCg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wiOgmoWtEeajhfcBCNCdCg" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wiOgm4WtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wiOgnIWtEeajhfcBCNCdCg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wiOgnYWtEeajhfcBCNCdCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiOgnoWtEeajhfcBCNCdCg"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_yEe9goWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Interface" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfJ4WtEeajhfcBCNCdCg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiN5i4WtEeajhfcBCNCdCg" x="6009" y="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_vjHM8YWtEeajhfcBCNCdCg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_vjHM8oWtEeajhfcBCNCdCg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_vjHM84WtEeajhfcBCNCdCg">
+    <owner xmi:type="uml:Package" href="Trancamento%20de%20Matricula%20DC.uml#_mDge8oWtEeajhfcBCNCdCg"/>
+  </styles>
+  <styles xmi:type="notation:CanonicalStyle" xmi:id="_wiCTUIWtEeajhfcBCNCdCg"/>
+  <element xmi:type="uml:Package" href="Trancamento%20de%20Matricula%20DC.uml#_mDge8oWtEeajhfcBCNCdCg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_yE4mIIWtEeajhfcBCNCdCg" type="Generalization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiF9sIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIDO4IWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIDO4YWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yE5NMIWtEeajhfcBCNCdCg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zd-gAIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yE5NMYWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yE4mIYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Generalization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge9YWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yE4mIoWtEeajhfcBCNCdCg" points="[2351, 140, -643984, -643984]$[4042, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeCxcIWtEeajhfcBCNCdCg" id="(1.0,0.5267857142857143)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeDYgIWtEeajhfcBCNCdCg" id="(0.0,0.19)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yE5NMoWtEeajhfcBCNCdCg" type="Generalization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiF9sIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIDO4oWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIDO44WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yE5NNYWtEeajhfcBCNCdCg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zd-gAYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yE5NNoWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yE5NM4WtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:Generalization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfBoWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yE5NNIWtEeajhfcBCNCdCg" points="[4991, 140, -643984, -643984]$[4075, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeDYgYWtEeajhfcBCNCdCg" id="(0.0,0.9553571428571429)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeDYgoWtEeajhfcBCNCdCg" id="(1.0,0.05)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFMvMIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiHy4IWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdAIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdAYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFMvM4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zepOYIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFMvNIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFMvNYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zepOYYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFMvNoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFMvMYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge9oWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFMvMoWtEeajhfcBCNCdCg" points="[2152, 140, -643984, -643984]$[227, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zezmcIWtEeajhfcBCNCdCg" id="(1.0,0.7857142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zezmcYWtEeajhfcBCNCdCg" id="(0.0,0.23076923076923078)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFMvN4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiHy9IWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdAoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdA4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFNWQIWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zepOYoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFNWQYWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFNWQoWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zepOY4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFNWQ4WtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFMvOIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge94WtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFMvOYWtEeajhfcBCNCdCg" points="[2168, 140, -643984, -643984]$[687, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zezmcoWtEeajhfcBCNCdCg" id="(1.0,0.8839285714285714)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zezmc4WtEeajhfcBCNCdCg" id="(0.0,0.11538461538461539)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFNWRIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiIZ8IWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdBIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdBYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFNWR4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeIRAYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFNWSIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFNWSYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeIRAoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFNWSoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFNWRYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge-IWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFNWRoWtEeajhfcBCNCdCg" points="[2185, 140, -643984, -643984]$[1027, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeKGMIWtEeajhfcBCNCdCg" id="(1.0,0.9196428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeKGMYWtEeajhfcBCNCdCg" id="(0.0,0.028846153846153848)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFNWS4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiIaBIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdBoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdB4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFNWToWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeMicoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFNWT4WtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFNWUIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeMic4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFNWUYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFNWTIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge-YWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFNWTYWtEeajhfcBCNCdCg" points="[2201, 140, -643984, -643984]$[1249, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeOXoIWtEeajhfcBCNCdCg" id="(1.0,0.9375)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeOXoYWtEeajhfcBCNCdCg" id="(0.0,0.028846153846153848)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFN9UIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiJBAIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdCIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdCYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFN9U4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zepOZIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFN9VIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFN9VYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zepOZYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFN9VoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFN9UYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge-oWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFN9UoWtEeajhfcBCNCdCg" points="[2218, 140, -643984, -643984]$[1521, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeyYUIWtEeajhfcBCNCdCg" id="(1.0,0.9464285714285714)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeyYUYWtEeajhfcBCNCdCg" id="(0.0,0.038461538461538464)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFN9V4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiJBFIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdCoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdC4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFN9WoWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zep1cIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFN9W4WtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFN9XIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zep1cYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFN9XYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFN9WIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge-4WtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFN9WYWtEeajhfcBCNCdCg" points="[2234, 140, -643984, -643984]$[1843, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zezmdIWtEeajhfcBCNCdCg" id="(1.0,0.9642857142857143)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zezmdYWtEeajhfcBCNCdCg" id="(0.0,0.028846153846153848)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFN9XoWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiJoEIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdDIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdDYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFN9YYWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zep1coWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFN9YoWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFN9Y4WtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zep1c4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFN9ZIWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFN9X4WtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge_IWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFN9YIWtEeajhfcBCNCdCg" points="[2251, 140, -643984, -643984]$[2251, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_ZIWtEeajhfcBCNCdCg" id="(1.0,0.9732142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_ZYWtEeajhfcBCNCdCg" id="(0.0,0.038461538461538464)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFOkYIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiJoJIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdDoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdD4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFOkY4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zep1dIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFOkZIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFOkZYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zep1dYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFOkZoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFOkYYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge_YWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFOkYoWtEeajhfcBCNCdCg" points="[2265, 140, -643984, -643984]$[2458, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_ZoWtEeajhfcBCNCdCg" id="(1.0,0.9732142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_Z4WtEeajhfcBCNCdCg" id="(0.0,0.019230769230769232)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFOkZ4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiK2MIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdEIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdEYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFOkaoWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeSpEoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFOka4WtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFOkbIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeTQIIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFOkbYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFOkaIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge_oWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFOkaYWtEeajhfcBCNCdCg" points="[2279, 140, -643984, -643984]$[2726, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeVFUIWtEeajhfcBCNCdCg" id="(1.0,0.9821428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeVFUYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFPLcIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiK2RIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdEoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdE4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPLc4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeYvsoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPLdIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPLdYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeZWwIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPLdoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFPLcYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDge_4WtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFPLcoWtEeajhfcBCNCdCg" points="[2294, 140, -643984, -643984]$[2958, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zebL8IWtEeajhfcBCNCdCg" id="(1.0,0.9821428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zebL8YWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFPLd4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiLdZoWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdFIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdFYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPLeoWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeqcgIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPLe4WtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPLfIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeqcgYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPLfYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFPLeIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfAIWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFPLeYWtEeajhfcBCNCdCg" points="[2308, 140, -643984, -643984]$[3229, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_YoWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_Y4WtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFPLfoWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiMEYYWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdFoWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdF4WtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPLgYWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeqcgoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPLgoWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPLg4WtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeqcg4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPygIWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFPLf4WtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfAYWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFPLgIWtEeajhfcBCNCdCg" points="[2322, 140, -643984, -643984]$[3537, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_YIWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zey_YYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFPygYWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiGk0YWtEeajhfcBCNCdCg" target="_wiMEdYWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIEdGIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIEdGYWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPyhIWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zemLEoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPyhYWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFPyhoWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zemLE4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFPyh4WtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFPygoWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfAoWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFPyg4WtEeajhfcBCNCdCg" points="[2337, 140, -643984, -643984]$[3836, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeonUIWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeonUYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFecAIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiJoOIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIUUoIWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7sIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFecA4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeRa8IWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFecBIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfDEIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeRa8YWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfDEYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFecAYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfB4WtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFecAoWtEeajhfcBCNCdCg" points="[5010, 140, -643984, -643984]$[4254, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeSpEIWtEeajhfcBCNCdCg" id="(1.0,0.9642857142857143)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeSpEYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFfDEoWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiKPMoWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7sYWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7soWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfDFYWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeW6goWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfDFoWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfDF4WtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeW6g4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfDGIWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFfDE4WtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfCIWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFfDFIWtEeajhfcBCNCdCg" points="[5029, 140, -643984, -643984]$[4486, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeYvsIWtEeajhfcBCNCdCg" id="(1.0,0.9732142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeYvsYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFfqIIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiK2WIWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7s4WtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7tIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfqI4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeKtQIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfqJIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfqJYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeKtQYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfqJoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFfqIYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfCYWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFfqIoWtEeajhfcBCNCdCg" points="[5048, 140, -643984, -643984]$[4715, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeMicIWtEeajhfcBCNCdCg" id="(1.0,0.9732142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeMicYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFfqJ4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiLdUoWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7tYWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7toWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfqKoWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeO-sIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfqK4WtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFfqLIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeO-sYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFfqLYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFfqKIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfCoWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFfqKYWtEeajhfcBCNCdCg" points="[5067, 140, -643984, -643984]$[4941, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeQz4IWtEeajhfcBCNCdCg" id="(1.0,0.9821428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeQz4YWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFfqLoWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiMrb4WtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7t4WtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7uIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFgRMIWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zee2UIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFgRMYWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFgRMoWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zee2UYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFgRM4WtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFfqL4WtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfC4WtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFfqMIWtEeajhfcBCNCdCg" points="[5086, 140, -643984, -643984]$[5200, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zemLEIWtEeajhfcBCNCdCg" id="(1.0,0.9821428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zemLEYWtEeajhfcBCNCdCg" id="(0.0,0.009615384615384616)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFgRNIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiMrg4WtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7uYWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7uoWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFgRN4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeVFUoWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFgROIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFgROYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeVFU4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFgROoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFgRNYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfDIWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFgRNoWtEeajhfcBCNCdCg" points="[5105, 140, -643984, -643984]$[5463, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeW6gIWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeW6gYWtEeajhfcBCNCdCg" id="(0.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFo0EIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiNSgYWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7u4WtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7vIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFo0E4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zebL8oWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFo0FIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFo0FYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zebzAIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFo0FoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFo0EYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfDYWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFo0EoWtEeajhfcBCNCdCg" points="[5124, 140, -643984, -643984]$[5699, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeePQIWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeePQYWtEeajhfcBCNCdCg" id="(0.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFpbIIWtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiNSlYWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7vYWtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7voWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFpbI4WtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeDYg4WtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFpbJIWtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFpbJYWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeDYhIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFpbJoWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFpbIYWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfDoWtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFpbIoWtEeajhfcBCNCdCg" points="[5143, 140, -643984, -643984]$[5899, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeFNsIWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeFNsYWtEeajhfcBCNCdCg" id="(0.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yFpbJ4WtEeajhfcBCNCdCg" type="InterfaceRealization_Edge" source="_wiHL2oWtEeajhfcBCNCdCg" target="_wiN5ioWtEeajhfcBCNCdCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIU7v4WtEeajhfcBCNCdCg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIU7wIWtEeajhfcBCNCdCg" key="mutable" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFpbKoWtEeajhfcBCNCdCg" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeF0wIWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFpbK4WtEeajhfcBCNCdCg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yFpbLIWtEeajhfcBCNCdCg" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zeF0wYWtEeajhfcBCNCdCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yFpbLYWtEeajhfcBCNCdCg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yFpbKIWtEeajhfcBCNCdCg"/>
+    <element xmi:type="uml:InterfaceRealization" href="Trancamento%20de%20Matricula%20DC.uml#_mDgfD4WtEeajhfcBCNCdCg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yFpbKYWtEeajhfcBCNCdCg" points="[5162, 140, -643984, -643984]$[6059, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeHp8IWtEeajhfcBCNCdCg" id="(1.0,0.9910714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeIRAIWtEeajhfcBCNCdCg" id="(0.0,0.0)"/>
+  </edges>
+</notation:Diagram>
