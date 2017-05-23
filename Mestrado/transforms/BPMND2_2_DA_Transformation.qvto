@@ -2,7 +2,7 @@ modeltype BPMN uses "http://www.omg.org/spec/BPMN/20100524/MODEL-XMI";
 
 modeltype BPMN2 uses "http://www.omg.org/spec/BPMN/20100524/DI-XMI";
 
-modeltype UML uses "http://www.eclipse.org/uml2/4.0.0/UML";
+modeltype UML uses "http://www.eclipse.org/uml2/5.0.0/UML";
 
 transformation BPMND2_2_DA_Transformation(in bpmn:BPMN2,out uml:UML);
 --in bpmnDI:BPMN2 ,
@@ -18,13 +18,13 @@ mapping Definitions::DefinitionsToModel2():Model {
 	var lanes : Bag(Lane);
 	
 	if(collaboration->size() > 0)then{
-		--Se existe uma colaboração, cada Participant (Pool) será mapeado para um Actor
+		--Se existe uma colaboraï¿½ï¿½o, cada Participant (Pool) serï¿½ mapeado para um Actor
 		collaboration.participants->forEach(p){
 			p -> map ParticipantToActivityPartition(result);
 		};
 		lanes := collaboration.participants.processRef.laneSets.lanes;
 	}else{
-		--Se não existe uma colaboração, cada Lane será mapeado para um Actor
+		--Se nï¿½o existe uma colaboraï¿½ï¿½o, cada Lane serï¿½ mapeado para um Actor
 		lanes := self.subobjects()[Process].laneSets.lanes; 
 		lanes -> map LaneToActivityPartition(null, result);
 	}endif;
@@ -68,7 +68,7 @@ mapping Participant::ParticipantToActivityPartition(inout model:Model):uml::Acti
 	
 	name := self.name;
 
-	--Cada Lane pertencente ao Participant, será transformada em ActivityPartition 
+	--Cada Lane pertencente ao Participant, serï¿½ transformada em ActivityPartition 
 	var lanes := self.processRef.laneSets.lanes; 
 	
 	
