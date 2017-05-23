@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_f1C9MCrjEee0DpWyJDim4Q" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_f1C9MSrjEee0DpWyJDim4Q" name="Default Collaboration Diagram" node="_f1C9QyrjEee0DpWyJDim4Q _f1DkQCrjEee0DpWyJDim4Q _f1DkQSrjEee0DpWyJDim4Q _f1DkQirjEee0DpWyJDim4Q _f1DkQyrjEee0DpWyJDim4Q _f1DkRCrjEee0DpWyJDim4Q _f1DkRSrjEee0DpWyJDim4Q _f1DkRirjEee0DpWyJDim4Q _f1DkRyrjEee0DpWyJDim4Q _f1DkSCrjEee0DpWyJDim4Q _f1DkSSrjEee0DpWyJDim4Q _f1DkSirjEee0DpWyJDim4Q _f1DkSyrjEee0DpWyJDim4Q" group="_f1C9MirjEee0DpWyJDim4Q">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9NirjEee0DpWyJDim4Q" name="É permitido suspender o programa?" target="_f1DkSyrjEee0DpWyJDim4Q" source="_f1DkRCrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9NyrjEee0DpWyJDim4Q" name="Não é permitido suspender o programa" target="_f1DkQCrjEee0DpWyJDim4Q" source="_f1DkSyrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9OCrjEee0DpWyJDim4Q" name="Solicitação aprovada" target="_f1DkSSrjEee0DpWyJDim4Q" source="_f1C9QyrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9OSrjEee0DpWyJDim4Q" name="null" target="_f1C9QyrjEee0DpWyJDim4Q" source="_f1DkQirjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9OirjEee0DpWyJDim4Q" name="O aluno está em observação?" target="_f1DkRyrjEee0DpWyJDim4Q" source="_f1DkSyrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9OyrjEee0DpWyJDim4Q" name="Aguardar sete dias e efetivar trancamento" target="_f1DkQSrjEee0DpWyJDim4Q" source="_f1DkRyrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9PCrjEee0DpWyJDim4Q" name="null" target="_f1C9QyrjEee0DpWyJDim4Q" source="_f1DkQSrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9PSrjEee0DpWyJDim4Q" name="Analisar solicitação" target="_f1DkSCrjEee0DpWyJDim4Q" source="_f1DkRyrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9PirjEee0DpWyJDim4Q" name="Solicitação cancelada" target="_f1DkRirjEee0DpWyJDim4Q" source="_f1DkRSrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9PyrjEee0DpWyJDim4Q" name="Verificar solicitação" target="_f1DkRCrjEee0DpWyJDim4Q" source="_f1DkQyrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9QCrjEee0DpWyJDim4Q" name="Solicitar trancamento" target="_f1DkQyrjEee0DpWyJDim4Q" source="_f1DkSirjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9QSrjEee0DpWyJDim4Q" name="solitação deferida?" target="_f1DkQirjEee0DpWyJDim4Q" source="_f1DkSCrjEee0DpWyJDim4Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f1C9QirjEee0DpWyJDim4Q" name="Cancelar solicitação" target="_f1DkRSrjEee0DpWyJDim4Q" source="_f1DkQirjEee0DpWyJDim4Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_f1C9MirjEee0DpWyJDim4Q" name="IES">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_f1C9MyrjEee0DpWyJDim4Q" name="Coordenador do Curso" node="_f1DkSCrjEee0DpWyJDim4Q _f1DkRSrjEee0DpWyJDim4Q _f1DkRirjEee0DpWyJDim4Q _f1DkQirjEee0DpWyJDim4Q">
+        <subpartition xmi:type="uml:ActivityPartition" xmi:id="_f1C9NSrjEee0DpWyJDim4Q" name="Sistema" node="_f1DkRCrjEee0DpWyJDim4Q _f1DkQSrjEee0DpWyJDim4Q _f1DkSSrjEee0DpWyJDim4Q _f1C9QyrjEee0DpWyJDim4Q _f1DkSyrjEee0DpWyJDim4Q _f1DkRyrjEee0DpWyJDim4Q"/>
+        <subpartition xmi:type="uml:ActivityPartition" xmi:id="_f1C9NCrjEee0DpWyJDim4Q" name="Discente" node="_f1DkQyrjEee0DpWyJDim4Q _f1DkSirjEee0DpWyJDim4Q _f1DkQCrjEee0DpWyJDim4Q"/>
+      </subpartition>
+    </group>
+    <node xmi:type="uml:DecisionNode" xmi:id="_f1C9QyrjEee0DpWyJDim4Q" incoming="_f1C9PCrjEee0DpWyJDim4Q _f1C9OSrjEee0DpWyJDim4Q" outgoing="_f1C9OCrjEee0DpWyJDim4Q" inPartition="_f1C9NSrjEee0DpWyJDim4Q">
+      <name xsi:nil="true"/>
+    </node>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_f1DkQCrjEee0DpWyJDim4Q" name="Não é permitido suspender o programa" incoming="_f1C9NyrjEee0DpWyJDim4Q" inPartition="_f1C9NCrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f1DkQSrjEee0DpWyJDim4Q" name="Aguardar sete dias e efetivar trancamento" incoming="_f1C9OyrjEee0DpWyJDim4Q" outgoing="_f1C9PCrjEee0DpWyJDim4Q" inPartition="_f1C9NSrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_f1DkQirjEee0DpWyJDim4Q" name="solitação deferida?" incoming="_f1C9QSrjEee0DpWyJDim4Q" outgoing="_f1C9QirjEee0DpWyJDim4Q _f1C9OSrjEee0DpWyJDim4Q" inPartition="_f1C9MyrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f1DkQyrjEee0DpWyJDim4Q" name="Solicitar trancamento" incoming="_f1C9QCrjEee0DpWyJDim4Q" outgoing="_f1C9PyrjEee0DpWyJDim4Q" inPartition="_f1C9NCrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f1DkRCrjEee0DpWyJDim4Q" name="Verificar solicitação" incoming="_f1C9PyrjEee0DpWyJDim4Q" outgoing="_f1C9NirjEee0DpWyJDim4Q" inPartition="_f1C9NSrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f1DkRSrjEee0DpWyJDim4Q" name="Cancelar solicitação" incoming="_f1C9QirjEee0DpWyJDim4Q" outgoing="_f1C9PirjEee0DpWyJDim4Q" inPartition="_f1C9MyrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_f1DkRirjEee0DpWyJDim4Q" name="Solicitação cancelada" incoming="_f1C9PirjEee0DpWyJDim4Q" inPartition="_f1C9MyrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_f1DkRyrjEee0DpWyJDim4Q" name="O aluno está em observação?" incoming="_f1C9OirjEee0DpWyJDim4Q" outgoing="_f1C9OyrjEee0DpWyJDim4Q _f1C9PSrjEee0DpWyJDim4Q" inPartition="_f1C9NSrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f1DkSCrjEee0DpWyJDim4Q" name="Analisar solicitação" incoming="_f1C9PSrjEee0DpWyJDim4Q" outgoing="_f1C9QSrjEee0DpWyJDim4Q" inPartition="_f1C9MyrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_f1DkSSrjEee0DpWyJDim4Q" name="Solicitação aprovada" incoming="_f1C9OCrjEee0DpWyJDim4Q" inPartition="_f1C9NSrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_f1DkSirjEee0DpWyJDim4Q" name="Calendário aberto" outgoing="_f1C9QCrjEee0DpWyJDim4Q" inPartition="_f1C9NCrjEee0DpWyJDim4Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_f1DkSyrjEee0DpWyJDim4Q" name="É permitido suspender o programa?" incoming="_f1C9NirjEee0DpWyJDim4Q" outgoing="_f1C9OirjEee0DpWyJDim4Q _f1C9NyrjEee0DpWyJDim4Q" inPartition="_f1C9NSrjEee0DpWyJDim4Q"/>
+  </packagedElement>
+</uml:Model>
