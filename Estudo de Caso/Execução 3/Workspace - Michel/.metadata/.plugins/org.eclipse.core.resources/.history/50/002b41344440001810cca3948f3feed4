@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_frnVQEBBEeiB4fER6kutnA" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_frnVQUBBEeiB4fER6kutnA" name="Default Collaboration Diagram">
+    <packagedElement xmi:type="uml:Class" xmi:id="_frnVQkBBEeiB4fER6kutnA" name="IES" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_frnVQ0BBEeiB4fER6kutnA" name="Discente" isAbstract="true">
+      <generalization xmi:id="_frnVREBBEeiB4fER6kutnA" general="_frnVQkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVRUBBEeiB4fER6kutnA" client="_frnVQ0BBEeiB4fER6kutnA" supplier="_frnVckBBEeiB4fER6kutnA" contract="_frnVckBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVRkBBEeiB4fER6kutnA" client="_frnVQ0BBEeiB4fER6kutnA" supplier="_frnVc0BBEeiB4fER6kutnA" contract="_frnVc0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVR0BBEeiB4fER6kutnA" client="_frnVQ0BBEeiB4fER6kutnA" supplier="_frn8UEBBEeiB4fER6kutnA" contract="_frn8UEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVSEBBEeiB4fER6kutnA" client="_frnVQ0BBEeiB4fER6kutnA" supplier="_frn8U0BBEeiB4fER6kutnA" contract="_frn8U0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVSUBBEeiB4fER6kutnA" client="_frnVQ0BBEeiB4fER6kutnA" supplier="_frn8VEBBEeiB4fER6kutnA" contract="_frn8VEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVSkBBEeiB4fER6kutnA" client="_frnVQ0BBEeiB4fER6kutnA" supplier="_frn8aEBBEeiB4fER6kutnA" contract="_frn8aEBBEeiB4fER6kutnA"/>
+      <ownedOperation xmi:id="_frnVS0BBEeiB4fER6kutnA" name="Solicitartrancamento" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_frnVTEBBEeiB4fER6kutnA" name="Sistema">
+      <generalization xmi:id="_frnVTUBBEeiB4fER6kutnA" general="_frnVQ0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVTkBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frnVdEBBEeiB4fER6kutnA" contract="_frnVdEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVT0BBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8VUBBEeiB4fER6kutnA" contract="_frn8VUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVUEBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8VkBBEeiB4fER6kutnA" contract="_frn8VkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVUUBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8V0BBEeiB4fER6kutnA" contract="_frn8V0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVUkBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8WEBBEeiB4fER6kutnA" contract="_frn8WEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVU0BBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8WUBBEeiB4fER6kutnA" contract="_frn8WUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVVEBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8WkBBEeiB4fER6kutnA" contract="_frn8WkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVVUBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8W0BBEeiB4fER6kutnA" contract="_frn8W0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVVkBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8XEBBEeiB4fER6kutnA" contract="_frn8XEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVV0BBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8XUBBEeiB4fER6kutnA" contract="_frn8XUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVWEBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8XkBBEeiB4fER6kutnA" contract="_frn8XkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVWUBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8X0BBEeiB4fER6kutnA" contract="_frn8X0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVWkBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8YkBBEeiB4fER6kutnA" contract="_frn8YkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVW0BBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8Y0BBEeiB4fER6kutnA" contract="_frn8Y0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVXEBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8ZkBBEeiB4fER6kutnA" contract="_frn8ZkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVXUBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8Z0BBEeiB4fER6kutnA" contract="_frn8Z0BBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVXkBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8aUBBEeiB4fER6kutnA" contract="_frn8aUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVX0BBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8akBBEeiB4fER6kutnA" contract="_frn8akBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVYEBBEeiB4fER6kutnA" client="_frnVTEBBEeiB4fER6kutnA" supplier="_frn8a0BBEeiB4fER6kutnA" contract="_frn8a0BBEeiB4fER6kutnA"/>
+      <ownedOperation xmi:id="_frnVYUBBEeiB4fER6kutnA" name="Verificasealunodiscenteeformando" visibility="private"/>
+      <ownedOperation xmi:id="_frnVYkBBEeiB4fER6kutnA" name="Aguardarsetediaseefetivartrancamento" visibility="private"/>
+      <ownedOperation xmi:id="_frnVY0BBEeiB4fER6kutnA" name="Verificatempodecorrido" visibility="private"/>
+      <ownedOperation xmi:id="_frnVZEBBEeiB4fER6kutnA" name="Recuperaalunonosistema" visibility="private"/>
+      <ownedOperation xmi:id="_frnVZUBBEeiB4fER6kutnA" name="Verificarquantidadedetrancamentos" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_frnVZkBBEeiB4fER6kutnA" name="CoordenadordoCurso">
+      <generalization xmi:id="_frnVZ0BBEeiB4fER6kutnA" general="_frnVQkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVaEBBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frnVdUBBEeiB4fER6kutnA" contract="_frnVdUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVaUBBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frnVdkBBEeiB4fER6kutnA" contract="_frnVdkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVakBBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frn8UUBBEeiB4fER6kutnA" contract="_frn8UUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVa0BBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frn8UkBBEeiB4fER6kutnA" contract="_frn8UkBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVbEBBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frn8YEBBEeiB4fER6kutnA" contract="_frn8YEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVbUBBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frn8YUBBEeiB4fER6kutnA" contract="_frn8YUBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVbkBBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frn8ZEBBEeiB4fER6kutnA" contract="_frn8ZEBBEeiB4fER6kutnA"/>
+      <interfaceRealization xmi:id="_frnVb0BBEeiB4fER6kutnA" client="_frnVZkBBEeiB4fER6kutnA" supplier="_frn8ZUBBEeiB4fER6kutnA" contract="_frn8ZUBBEeiB4fER6kutnA"/>
+      <ownedOperation xmi:id="_frnVcEBBEeiB4fER6kutnA" name="Analisarsolicitacao" visibility="private"/>
+      <ownedOperation xmi:id="_frnVcUBBEeiB4fER6kutnA" name="Cancelarsolicitacao" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frnVckBBEeiB4fER6kutnA" name="Tempodecorridodadisciplinapassou50%_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frnVc0BBEeiB4fER6kutnA"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frnVdEBBEeiB4fER6kutnA"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frnVdUBBEeiB4fER6kutnA" name="solitacaodeferida?_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frnVdkBBEeiB4fER6kutnA" name="solitacaodeferida?_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8UEBBEeiB4fER6kutnA" name="Al_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8UUBBEeiB4fER6kutnA" name="Cancelarsolicitacao_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8UkBBEeiB4fER6kutnA" name="Cancelarsolicitacao_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8U0BBEeiB4fER6kutnA" name="Solicitartrancamento_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8VEBBEeiB4fER6kutnA" name="Solicitartrancamento_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8VUBBEeiB4fER6kutnA" name="verificaaluno_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8VkBBEeiB4fER6kutnA" name="Oalunoestaemobservacao?_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8V0BBEeiB4fER6kutnA"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8WEBBEeiB4fER6kutnA"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8WUBBEeiB4fER6kutnA" name="Solicitacaoaprovada_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8WkBBEeiB4fER6kutnA" name="Solicitacaoaprovada_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8W0BBEeiB4fER6kutnA" name="null_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8XEBBEeiB4fER6kutnA" name="null_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8XUBBEeiB4fER6kutnA" name="Tempodecorrido_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8XkBBEeiB4fER6kutnA" name="Alunostrictusensu_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8X0BBEeiB4fER6kutnA" name="Analisarsolicitacao_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8YEBBEeiB4fER6kutnA" name="Analisarsolicitacao_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8YUBBEeiB4fER6kutnA" name="null_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8YkBBEeiB4fER6kutnA" name="null_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8Y0BBEeiB4fER6kutnA" name="Alunoeativoeformando_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8ZEBBEeiB4fER6kutnA" name="Solicitacaocancelada_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8ZUBBEeiB4fER6kutnA" name="Solicitacaocancelada_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8ZkBBEeiB4fER6kutnA" name="Quantidadedetrancamentos_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8Z0BBEeiB4fER6kutnA" name="Alunodegraduacao_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8aEBBEeiB4fER6kutnA" name="Alunonaoeativoounaoeformando_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8aUBBEeiB4fER6kutnA" name="Aguardarsetediaseefetivartrancamento_Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8akBBEeiB4fER6kutnA" name="Aguardarsetediaseefetivartrancamento_Request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_frn8a0BBEeiB4fER6kutnA" name="Tempodecorridodadisciplinaemenorque50%_Request"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ShjhkKaDEeaiY5C1nfzlsg" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_ShjhkaaDEeaiY5C1nfzlsg" name="Default Collaboration Diagram" node="_ShjhpKaDEeaiY5C1nfzlsg _ShjhpaaDEeaiY5C1nfzlsg _ShjhpqaDEeaiY5C1nfzlsg _Shjhp6aDEeaiY5C1nfzlsg _ShjhqKaDEeaiY5C1nfzlsg _ShjhqaaDEeaiY5C1nfzlsg _ShjhqqaDEeaiY5C1nfzlsg _Shjhq6aDEeaiY5C1nfzlsg _ShjhrKaDEeaiY5C1nfzlsg _ShjhrqaDEeaiY5C1nfzlsg _NyWy0DSyEeezo-vExDivEQ _ZkXBQDSyEeezo-vExDivEQ _fxAwwDSyEeezo-vExDivEQ _p6VxMDSyEeezo-vExDivEQ _73yOMDSyEeezo-vExDivEQ __XU3MDSyEeezo-vExDivEQ _G6a1MDSzEeezo-vExDivEQ _21zsoDSzEeezo-vExDivEQ _9hp5kDSzEeezo-vExDivEQ _gTXlADS0Eeezo-vExDivEQ _8id4ADS0Eeezo-vExDivEQ _O2uSgDS1Eeezo-vExDivEQ _nhdG4DS1Eeezo-vExDivEQ _-eWgcDS1Eeezo-vExDivEQ _M5vL8DS2Eeezo-vExDivEQ _e0WXYDS2Eeezo-vExDivEQ _G8jmYDS3Eeezo-vExDivEQ _PjF-YDS3Eeezo-vExDivEQ _V25ewDS3Eeezo-vExDivEQ _YqNT4DS3Eeezo-vExDivEQ _gvs0UDS3Eeezo-vExDivEQ _0mKBYDS3Eeezo-vExDivEQ _50d5UDS3Eeezo-vExDivEQ _Ft2ssDS5Eeezo-vExDivEQ _aI_UIDS5Eeezo-vExDivEQ _MAbPQDS_Eeezo-vExDivEQ" group="_ShjhkqaDEeaiY5C1nfzlsg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShjhmaaDEeaiY5C1nfzlsg" name="Solicitar trancamento" target="_ShjhqKaDEeaiY5C1nfzlsg" source="_G8jmYDS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShjhnKaDEeaiY5C1nfzlsg" name="Solicitação cancelada" target="_ShjhpaaDEeaiY5C1nfzlsg" source="_Ft2ssDS5Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShjhnaaDEeaiY5C1nfzlsg" name="null" target="_ShjhrqaDEeaiY5C1nfzlsg" source="_ShjhrKaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShjhnqaDEeaiY5C1nfzlsg" name="Cancelar solicitação" target="_ShjhpKaDEeaiY5C1nfzlsg" source="_Ft2ssDS5Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Shjhn6aDEeaiY5C1nfzlsg" name="solitação deferida?" target="_ShjhrKaDEeaiY5C1nfzlsg" source="_ShjhqaaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShjhoKaDEeaiY5C1nfzlsg" name="Aguardar sete dias e efetivar trancamento" target="_ShjhpqaDEeaiY5C1nfzlsg" source="_Shjhp6aDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShjhoqaDEeaiY5C1nfzlsg" name="AnalisarSolicitacao" target="_ShjhqaaDEeaiY5C1nfzlsg" source="_Shjhp6aDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cF0b8DSzEeezo-vExDivEQ" name="BuscarAluno" target="_NyWy0DSyEeezo-vExDivEQ" source="_ShjhqKaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dcX_MDSzEeezo-vExDivEQ" name="VerificarTrancamento" target="_ZkXBQDSyEeezo-vExDivEQ" source="_NyWy0DSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ed_NMDSzEeezo-vExDivEQ" target="_fxAwwDSyEeezo-vExDivEQ" source="_ZkXBQDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gnepQDSzEeezo-vExDivEQ" target="_73yOMDSyEeezo-vExDivEQ" source="_fxAwwDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hoKqMDSzEeezo-vExDivEQ" target="__XU3MDSyEeezo-vExDivEQ" source="_73yOMDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_j4RroDSzEeezo-vExDivEQ" target="_G6a1MDSzEeezo-vExDivEQ" source="__XU3MDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_k4hnsDSzEeezo-vExDivEQ" target="_p6VxMDSyEeezo-vExDivEQ" source="__XU3MDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ln09sDSzEeezo-vExDivEQ" target="_p6VxMDSyEeezo-vExDivEQ" source="_fxAwwDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CG8CoDS0Eeezo-vExDivEQ" target="_21zsoDSzEeezo-vExDivEQ" source="_G6a1MDSzEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_C_sPkDS0Eeezo-vExDivEQ" target="_9hp5kDSzEeezo-vExDivEQ" source="_21zsoDSzEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IJv5oDS0Eeezo-vExDivEQ" name="Sim" target="_Shjhp6aDEeaiY5C1nfzlsg" source="_9hp5kDSzEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Op_6kDS0Eeezo-vExDivEQ" name="Não" target="_ShjhqaaDEeaiY5C1nfzlsg" source="_9hp5kDSzEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mOVHkDS0Eeezo-vExDivEQ" target="_gTXlADS0Eeezo-vExDivEQ" source="_p6VxMDSyEeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SDyrcDS1Eeezo-vExDivEQ" target="_O2uSgDS1Eeezo-vExDivEQ" source="_8id4ADS0Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XsD7gDS1Eeezo-vExDivEQ" target="_ShjhrqaDEeaiY5C1nfzlsg" source="_O2uSgDS1Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_p5Sg8DS1Eeezo-vExDivEQ" target="_nhdG4DS1Eeezo-vExDivEQ" source="_ShjhrqaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qiLs8DS1Eeezo-vExDivEQ" name="Solicitacao Aprovada" target="_Shjhq6aDEeaiY5C1nfzlsg" source="_nhdG4DS1Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wseE8DS1Eeezo-vExDivEQ" target="_-eWgcDS1Eeezo-vExDivEQ" source="_O2uSgDS1Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_K7J_YDS2Eeezo-vExDivEQ" target="_-eWgcDS1Eeezo-vExDivEQ" source="_ShjhpqaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QUie4DS2Eeezo-vExDivEQ" target="_M5vL8DS2Eeezo-vExDivEQ" source="_-eWgcDS1Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SPnEcDS2Eeezo-vExDivEQ" target="_8id4ADS0Eeezo-vExDivEQ" source="_M5vL8DS2Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_h6fB4DS2Eeezo-vExDivEQ" target="_e0WXYDS2Eeezo-vExDivEQ" source="_M5vL8DS2Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NARcUDS3Eeezo-vExDivEQ" target="_G8jmYDS3Eeezo-vExDivEQ" source="_ShjhqqaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_S8wB0DS3Eeezo-vExDivEQ" target="_PjF-YDS3Eeezo-vExDivEQ" source="_G8jmYDS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tI6zwDS3Eeezo-vExDivEQ" target="_V25ewDS3Eeezo-vExDivEQ" source="_PjF-YDS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uGyKMDS3Eeezo-vExDivEQ" target="_YqNT4DS3Eeezo-vExDivEQ" source="_V25ewDS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_v52DQDS3Eeezo-vExDivEQ" target="_gvs0UDS3Eeezo-vExDivEQ" source="_YqNT4DS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_37TYQDS3Eeezo-vExDivEQ" target="_0mKBYDS3Eeezo-vExDivEQ" source="_gvs0UDS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_H3knsDS4Eeezo-vExDivEQ" target="_50d5UDS3Eeezo-vExDivEQ" source="_YqNT4DS3Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dJPZEDS5Eeezo-vExDivEQ" target="_aI_UIDS5Eeezo-vExDivEQ" source="_ShjhrKaDEeaiY5C1nfzlsg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f4fNkDS5Eeezo-vExDivEQ" target="_Ft2ssDS5Eeezo-vExDivEQ" source="_aI_UIDS5Eeezo-vExDivEQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PJ0pIDS_Eeezo-vExDivEQ" target="_MAbPQDS_Eeezo-vExDivEQ" source="_ShjhpKaDEeaiY5C1nfzlsg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_ShjhkqaDEeaiY5C1nfzlsg" name="IES">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_Shjhk6aDEeaiY5C1nfzlsg" name="Sistema" node="_ShjhpqaDEeaiY5C1nfzlsg _Shjhp6aDEeaiY5C1nfzlsg _Ft2ssDS5Eeezo-vExDivEQ _aI_UIDS5Eeezo-vExDivEQ _50d5UDS3Eeezo-vExDivEQ _0mKBYDS3Eeezo-vExDivEQ _gvs0UDS3Eeezo-vExDivEQ _YqNT4DS3Eeezo-vExDivEQ _V25ewDS3Eeezo-vExDivEQ _e0WXYDS2Eeezo-vExDivEQ _M5vL8DS2Eeezo-vExDivEQ _-eWgcDS1Eeezo-vExDivEQ _nhdG4DS1Eeezo-vExDivEQ _O2uSgDS1Eeezo-vExDivEQ _8id4ADS0Eeezo-vExDivEQ _9hp5kDSzEeezo-vExDivEQ _21zsoDSzEeezo-vExDivEQ _G6a1MDSzEeezo-vExDivEQ __XU3MDSyEeezo-vExDivEQ _73yOMDSyEeezo-vExDivEQ _p6VxMDSyEeezo-vExDivEQ _fxAwwDSyEeezo-vExDivEQ _ZkXBQDSyEeezo-vExDivEQ _NyWy0DSyEeezo-vExDivEQ"/>
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_ShjhlKaDEeaiY5C1nfzlsg" name="Discente" node="_ShjhqKaDEeaiY5C1nfzlsg _ShjhqqaDEeaiY5C1nfzlsg _PjF-YDS3Eeezo-vExDivEQ"/>
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_ShjhlaaDEeaiY5C1nfzlsg" name="Coordenador do Curso" node="_ShjhqaaDEeaiY5C1nfzlsg _ShjhpKaDEeaiY5C1nfzlsg _ShjhpaaDEeaiY5C1nfzlsg _ShjhrKaDEeaiY5C1nfzlsg _MAbPQDS_Eeezo-vExDivEQ _nhdG4DS1Eeezo-vExDivEQ _ShjhrqaDEeaiY5C1nfzlsg _Shjhq6aDEeaiY5C1nfzlsg"/>
+    </group>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ShjhpKaDEeaiY5C1nfzlsg" name="Cancelar Solicitacao" incoming="_ShjhnqaDEeaiY5C1nfzlsg" outgoing="_PJ0pIDS_Eeezo-vExDivEQ" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_ShjhpaaDEeaiY5C1nfzlsg" name="Cancelado pelo aluno" incoming="_ShjhnKaDEeaiY5C1nfzlsg" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ShjhpqaDEeaiY5C1nfzlsg" name="Mudar o Status da Solicitação para Agendado" incoming="_ShjhoKaDEeaiY5C1nfzlsg" outgoing="_K7J_YDS2Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Shjhp6aDEeaiY5C1nfzlsg" name="O aluno está em observação?" incoming="_IJv5oDS0Eeezo-vExDivEQ" outgoing="_ShjhoKaDEeaiY5C1nfzlsg _ShjhoqaDEeaiY5C1nfzlsg" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ShjhqKaDEeaiY5C1nfzlsg" name="Solicitar trancamento" incoming="_ShjhmaaDEeaiY5C1nfzlsg" outgoing="_cF0b8DSzEeezo-vExDivEQ" inPartition="_ShjhlKaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ShjhqaaDEeaiY5C1nfzlsg" name="Analisar solicitação" incoming="_ShjhoqaDEeaiY5C1nfzlsg _Op_6kDS0Eeezo-vExDivEQ" outgoing="_Shjhn6aDEeaiY5C1nfzlsg" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ShjhqqaDEeaiY5C1nfzlsg" name="Calendário aberto" outgoing="_NARcUDS3Eeezo-vExDivEQ" inPartition="_ShjhlKaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_Shjhq6aDEeaiY5C1nfzlsg" name="Solicitação aprovada" incoming="_qiLs8DS1Eeezo-vExDivEQ" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ShjhrKaDEeaiY5C1nfzlsg" name="solitação deferida?" incoming="_Shjhn6aDEeaiY5C1nfzlsg" outgoing="_ShjhnaaDEeaiY5C1nfzlsg _dJPZEDS5Eeezo-vExDivEQ" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ShjhrqaDEeaiY5C1nfzlsg" name="" incoming="_ShjhnaaDEeaiY5C1nfzlsg _XsD7gDS1Eeezo-vExDivEQ" outgoing="_p5Sg8DS1Eeezo-vExDivEQ" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NyWy0DSyEeezo-vExDivEQ" name="Buscar aluno" incoming="_cF0b8DSzEeezo-vExDivEQ" outgoing="_dcX_MDSzEeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZkXBQDSyEeezo-vExDivEQ" name="Verificar Numero de Trancamentos no Periodo" incoming="_dcX_MDSzEeezo-vExDivEQ" outgoing="_ed_NMDSzEeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_fxAwwDSyEeezo-vExDivEQ" name="Maior Que Um?" incoming="_ed_NMDSzEeezo-vExDivEQ" outgoing="_gnepQDSzEeezo-vExDivEQ _ln09sDSzEeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_p6VxMDSyEeezo-vExDivEQ" name="Bloquear Solicitacao" incoming="_k4hnsDSzEeezo-vExDivEQ _ln09sDSzEeezo-vExDivEQ" outgoing="_mOVHkDS0Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_73yOMDSyEeezo-vExDivEQ" name="Verificar Numero de Trancamentos No Curso" incoming="_gnepQDSzEeezo-vExDivEQ" outgoing="_hoKqMDSzEeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="__XU3MDSyEeezo-vExDivEQ" name="Maior Que Quatro?" incoming="_hoKqMDSzEeezo-vExDivEQ" outgoing="_j4RroDSzEeezo-vExDivEQ _k4hnsDSzEeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_G6a1MDSzEeezo-vExDivEQ" name="Verificar Status Do Discente" incoming="_j4RroDSzEeezo-vExDivEQ" outgoing="_CG8CoDS0Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_21zsoDSzEeezo-vExDivEQ" name="Verificar Parametro TRANCAMENTO_DIRETO_DO_PROGRAMA" incoming="_CG8CoDS0Eeezo-vExDivEQ" outgoing="_C_sPkDS0Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_9hp5kDSzEeezo-vExDivEQ" name="Igual a 1?" incoming="_C_sPkDS0Eeezo-vExDivEQ" outgoing="_IJv5oDS0Eeezo-vExDivEQ _Op_6kDS0Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_gTXlADS0Eeezo-vExDivEQ" name="Solicitacao Indeferida" incoming="_mOVHkDS0Eeezo-vExDivEQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8id4ADS0Eeezo-vExDivEQ" name="Verificar Data do Agendamento" incoming="_SPnEcDS2Eeezo-vExDivEQ" outgoing="_SDyrcDS1Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_O2uSgDS1Eeezo-vExDivEQ" name="Igual a Sete?" incoming="_SDyrcDS1Eeezo-vExDivEQ" outgoing="_XsD7gDS1Eeezo-vExDivEQ _wseE8DS1Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nhdG4DS1Eeezo-vExDivEQ" name="Aprovar Solicitacao" incoming="_p5Sg8DS1Eeezo-vExDivEQ" outgoing="_qiLs8DS1Eeezo-vExDivEQ" inPartition="_ShjhlaaDEeaiY5C1nfzlsg _Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-eWgcDS1Eeezo-vExDivEQ" name="Verificar Status da Solicitacao" incoming="_K7J_YDS2Eeezo-vExDivEQ _wseE8DS1Eeezo-vExDivEQ" outgoing="_QUie4DS2Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_M5vL8DS2Eeezo-vExDivEQ" name="Status igual a AGENDADO?" incoming="_QUie4DS2Eeezo-vExDivEQ" outgoing="_SPnEcDS2Eeezo-vExDivEQ _h6fB4DS2Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_e0WXYDS2Eeezo-vExDivEQ" name="Fim" incoming="_h6fB4DS2Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_G8jmYDS3Eeezo-vExDivEQ" incoming="_NARcUDS3Eeezo-vExDivEQ" outgoing="_ShjhmaaDEeaiY5C1nfzlsg _S8wB0DS3Eeezo-vExDivEQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PjF-YDS3Eeezo-vExDivEQ" name="Cancelar Trancamento" incoming="_S8wB0DS3Eeezo-vExDivEQ" outgoing="_tI6zwDS3Eeezo-vExDivEQ" inPartition="_ShjhlKaDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_V25ewDS3Eeezo-vExDivEQ" name="Verificar Status" incoming="_tI6zwDS3Eeezo-vExDivEQ" outgoing="_uGyKMDS3Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_YqNT4DS3Eeezo-vExDivEQ" name="Status igual a AGENDADO?" incoming="_uGyKMDS3Eeezo-vExDivEQ" outgoing="_v52DQDS3Eeezo-vExDivEQ _H3knsDS4Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gvs0UDS3Eeezo-vExDivEQ" name="Mudar Status para CANCELADO" incoming="_v52DQDS3Eeezo-vExDivEQ" outgoing="_37TYQDS3Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_0mKBYDS3Eeezo-vExDivEQ" name="Executado com Sucesso" incoming="_37TYQDS3Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_50d5UDS3Eeezo-vExDivEQ" name="Nao foi possivel realizar a transacao" incoming="_H3knsDS4Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Ft2ssDS5Eeezo-vExDivEQ" name="Status igual a AGENDADO??" incoming="_f4fNkDS5Eeezo-vExDivEQ" outgoing="_ShjhnKaDEeaiY5C1nfzlsg _ShjhnqaDEeaiY5C1nfzlsg" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aI_UIDS5Eeezo-vExDivEQ" name="Verificar Status da Solicitacao" incoming="_dJPZEDS5Eeezo-vExDivEQ" outgoing="_f4fNkDS5Eeezo-vExDivEQ" inPartition="_Shjhk6aDEeaiY5C1nfzlsg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_MAbPQDS_Eeezo-vExDivEQ" name="Solicitação cancelada" incoming="_PJ0pIDS_Eeezo-vExDivEQ" inPartition="_ShjhlaaDEeaiY5C1nfzlsg"/>
+  </packagedElement>
+</uml:Model>

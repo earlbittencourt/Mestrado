@@ -1,0 +1,13 @@
+Treinamento
+
+Inicio do estudo
+Data/Hora 
+14/09/17 de 15:18 a 16:45
+
+Para melhorar o roteiro
+- Acrescentar o passo de colocar as atividades dentro das raias
+- Acrescentar o passo de apagar as classes do diagrama de classes que nao serao uteis
+- No diagrama de classes indicar como criar tipo de dado e nao criar duplicatas
+
+
+

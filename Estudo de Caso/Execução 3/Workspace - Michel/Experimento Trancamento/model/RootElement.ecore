@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="RootElement" nsURI="http:///RootElement.ecore" nsPrefix="RootElement">
+  <eSubpackages name="DefaultCollaborationDiagram" nsURI="http:///RootElement/DefaultCollaborationDiagram.ecore"
+      nsPrefix="RootElement.DefaultCollaborationDiagram">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="Default Collaboration Diagram"/>
+    </eAnnotations>
+    <eClassifiers xsi:type="ecore:EClass" name="IES" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Discente" abstract="true" eSuperTypes="#//DefaultCollaborationDiagram/IES #//DefaultCollaborationDiagram/Tempodecorridodadisciplinapassou50_Request #//DefaultCollaborationDiagram/Al_Request #//DefaultCollaborationDiagram/Solicitartrancamento_Service #//DefaultCollaborationDiagram/Solicitartrancamento_Request #//DefaultCollaborationDiagram/Alunonaoeativoounaoeformando_Request">
+      <eOperations name="Solicitartrancamento" ordered="false" lowerBound="1"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Tempodecorridodadisciplinapassou50_Request"
+        abstract="true" interface="true">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details key="originalName" value="Tempodecorridodadisciplinapassou50%_Request"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Al_Request" abstract="true" interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Solicitartrancamento_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Solicitartrancamento_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Alunonaoeativoounaoeformando_Request"
+        abstract="true" interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Sistema" eSuperTypes="#//DefaultCollaborationDiagram/Discente #//DefaultCollaborationDiagram/verificaaluno_Service #//DefaultCollaborationDiagram/Oalunoestaemobservacao_Request #//DefaultCollaborationDiagram/Solicitacaoaprovada_Service #//DefaultCollaborationDiagram/Solicitacaoaprovada_Request #//DefaultCollaborationDiagram/Tempodecorrido_Service #//DefaultCollaborationDiagram/Alunostrictusensu_Request #//DefaultCollaborationDiagram/Analisarsolicitacao_Service #//DefaultCollaborationDiagram/Alunoeativoeformando_Request #//DefaultCollaborationDiagram/Quantidadedetrancamentos_Service #//DefaultCollaborationDiagram/Alunodegraduacao_Request #//DefaultCollaborationDiagram/Aguardarsetediaseefetivartrancamento_Service #//DefaultCollaborationDiagram/Aguardarsetediaseefetivartrancamento_Request #//DefaultCollaborationDiagram/Tempodecorridodadisciplinaemenorque50_Request">
+      <eOperations name="Verificasealunodiscenteeformando" ordered="false" lowerBound="1"/>
+      <eOperations name="Aguardarsetediaseefetivartrancamento" ordered="false" lowerBound="1"/>
+      <eOperations name="Verificatempodecorrido" ordered="false" lowerBound="1"/>
+      <eOperations name="Recuperaalunonosistema" ordered="false" lowerBound="1"/>
+      <eOperations name="Verificarquantidadedetrancamentos" ordered="false" lowerBound="1"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="verificaaluno_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Oalunoestaemobservacao_Request" abstract="true"
+        interface="true">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details key="originalName" value="Oalunoestaemobservacao?_Request"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Solicitacaoaprovada_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Solicitacaoaprovada_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Tempodecorrido_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Alunostrictusensu_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Analisarsolicitacao_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Alunoeativoeformando_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Quantidadedetrancamentos_Service"
+        abstract="true" interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Alunodegraduacao_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Aguardarsetediaseefetivartrancamento_Service"
+        abstract="true" interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Aguardarsetediaseefetivartrancamento_Request"
+        abstract="true" interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Tempodecorridodadisciplinaemenorque50_Request"
+        abstract="true" interface="true">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details key="originalName" value="Tempodecorridodadisciplinaemenorque50%_Request"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="CoordenadordoCurso" eSuperTypes="#//DefaultCollaborationDiagram/IES #//DefaultCollaborationDiagram/solitacaodeferida_Service #//DefaultCollaborationDiagram/solitacaodeferida_Request #//DefaultCollaborationDiagram/Cancelarsolicitacao_Service #//DefaultCollaborationDiagram/Cancelarsolicitacao_Request #//DefaultCollaborationDiagram/Analisarsolicitacao_Request #//DefaultCollaborationDiagram/Solicitacaocancelada_Service #//DefaultCollaborationDiagram/Solicitacaocancelada_Request">
+      <eOperations name="Analisarsolicitacao" ordered="false" lowerBound="1"/>
+      <eOperations name="Cancelarsolicitacao" ordered="false" lowerBound="1"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="solitacaodeferida_Service" abstract="true"
+        interface="true">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details key="originalName" value="solitacaodeferida?_Service"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="solitacaodeferida_Request" abstract="true"
+        interface="true">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details key="originalName" value="solitacaodeferida?_Request"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Cancelarsolicitacao_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Cancelarsolicitacao_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Analisarsolicitacao_Request" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Solicitacaocancelada_Service" abstract="true"
+        interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Solicitacaocancelada_Request" abstract="true"
+        interface="true"/>
+  </eSubpackages>
+</ecore:EPackage>
